@@ -15,10 +15,10 @@ limitations under the License.
 
 #include "codegen/runtime/micro_codegen_context.h"
 
-#include "tensorflow/lite/c/common.h"
-#include "tensorflow/lite/kernels/internal/compatibility.h"
-#include "tensorflow/lite/kernels/op_macros.h"
-#include "tensorflow/lite/micro/micro_log.h"
+#include "tflite/tensorflow/lite/c/common.h"
+#include "tflite/tensorflow/lite/kernels/internal/compatibility.h"
+#include "tflite/tensorflow/lite/kernels/op_macros.h"
+#include "tflite/tensorflow/lite/micro/micro_log.h"
 
 namespace tflite {
 

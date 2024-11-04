@@ -13,14 +13,14 @@ See the License for the specific language governing permissions and
 limitations under the License.
 ==============================================================================*/
 
-#include "tensorflow/lite/micro/system_setup.h"
+#include "tflite/tensorflow/lite/micro/system_setup.h"
 
 #ifndef TF_LITE_STRIP_ERROR_STRINGS
 #include "q6sim_timer.h"  // NOLINT
 #endif                    // TF_LITE_STRIP_ERROR_STRINGS
 
-#include "tensorflow/lite/micro/debug_log.h"
-#include "tensorflow/lite/micro/micro_time.h"
+#include "tflite/tensorflow/lite/micro/debug_log.h"
+#include "tflite/tensorflow/lite/micro/micro_time.h"
 
 namespace tflite {
 

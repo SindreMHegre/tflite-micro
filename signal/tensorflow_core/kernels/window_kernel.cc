@@ -13,8 +13,8 @@ See the License for the specific language governing permissions and
 limitations under the License.
 ==============================================================================*/
 
-#include "signal/src/window.h"
-#include "tensorflow/core/framework/op_kernel.h"
+#include "tflite/signal/src/window.h"
+#include "tflite/tensorflow/core/framework/op_kernel.h"
 
 namespace tensorflow {
 namespace signal {

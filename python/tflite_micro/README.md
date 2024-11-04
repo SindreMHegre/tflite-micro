@@ -194,7 +194,7 @@ add it to TFLM's ops resolver. For example,
 
 ```
 #include "custom_op.h"
-#include "tensorflow/lite/micro/all_ops_resolver.h"
+#include "tflite/tensorflow/lite/micro/all_ops_resolver.h"
 
 namespace tflite {
 

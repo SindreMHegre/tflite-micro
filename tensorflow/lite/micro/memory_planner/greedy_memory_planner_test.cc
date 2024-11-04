@@ -13,9 +13,9 @@ See the License for the specific language governing permissions and
 limitations under the License.
 ==============================================================================*/
 
-#include "tensorflow/lite/micro/memory_planner/greedy_memory_planner.h"
+#include "tflite/tensorflow/lite/micro/memory_planner/greedy_memory_planner.h"
 
-#include "tensorflow/lite/micro/testing/micro_test.h"
+#include "tflite/tensorflow/lite/micro/testing/micro_test.h"
 
 namespace tflite {
 // We don't declare this in the header since it's not a public interface, but we

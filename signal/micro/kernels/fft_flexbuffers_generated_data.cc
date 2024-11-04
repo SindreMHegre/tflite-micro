@@ -16,7 +16,7 @@ limitations under the License.
 // This file is generated. See:
 // tensorflow/lite/micro/kernels/test_data_generation/README.md
 
-#include "signal/micro/kernels/fft_flexbuffers_generated_data.h"
+#include "tflite/signal/micro/kernels/fft_flexbuffers_generated_data.h"
 
 const int g_gen_data_size_fft_length_64_float = 26;
 const unsigned char g_gen_data_fft_length_64_float[] = {

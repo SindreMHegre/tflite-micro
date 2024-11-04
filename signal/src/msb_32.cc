@@ -13,7 +13,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 ==============================================================================*/
 
-#include "signal/src/msb.h"
+#include "tflite/signal/src/msb.h"
 
 #if defined(XTENSA)
 #include <xtensa/tie/xt_misc.h>

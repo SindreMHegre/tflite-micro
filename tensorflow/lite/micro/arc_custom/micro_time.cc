@@ -17,7 +17,7 @@ limitations under the License.
 
 // Use default timer of arc_timer API delivered with MetaWare toolkit.
 
-#include "tensorflow/lite/micro/micro_time.h"
+#include "tflite/tensorflow/lite/micro/micro_time.h"
 
 #include <arc/arc_timer.h>
 

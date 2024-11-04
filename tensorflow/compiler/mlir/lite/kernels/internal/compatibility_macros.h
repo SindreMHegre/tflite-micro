@@ -16,6 +16,6 @@ limitations under the License.
 #ifndef TENSORFLOW_COMPILER_MLIR_LITE_KERNELS_INTERNAL_COMPATABILITY_MACROS_H_
 #define TENSORFLOW_COMPILER_MLIR_LITE_KERNELS_INTERNAL_COMPATABILITY_MACROS_H_
 
-#include "tensorflow/lite/kernels/internal/compatibility.h"  // IWYU pragma: keep
+#include "tflite/tensorflow/lite/kernels/internal/compatibility.h"  // IWYU pragma: keep
 
 #endif  // TENSORFLOW_COMPILER_MLIR_LITE_KERNELS_INTERNAL_COMPATABILITY_MACROS_H_

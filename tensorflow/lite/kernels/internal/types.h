@@ -20,8 +20,8 @@ limitations under the License.
 #include <cstring>
 #include <initializer_list>
 
-#include "tensorflow/lite/kernels/internal/compatibility.h"
-#include "tensorflow/lite/kernels/internal/runtime_shape.h"
+#include "tflite/tensorflow/lite/kernels/internal/compatibility.h"
+#include "tflite/tensorflow/lite/kernels/internal/runtime_shape.h"
 
 namespace tflite {
 
@@ -137,6 +137,8 @@ struct QuantizationParams {
 
 inline bool operator==(const QuantizationParams& qp1,
                        const QuantizationParams& qp2) {
+  #pragma GCC diagnostic push
+  #pragma GCC diagnostic ignored "-Wfloat-equal"
   return qp1.zero_point == qp2.zero_point && qp1.scale == qp2.scale;
 }
 

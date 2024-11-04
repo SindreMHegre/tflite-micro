@@ -15,9 +15,9 @@ limitations under the License.
 #ifndef TENSORFLOW_LITE_MICRO_KERNELS_SOFTMAX_H_
 #define TENSORFLOW_LITE_MICRO_KERNELS_SOFTMAX_H_
 
-#include "tensorflow/lite/c/builtin_op_data.h"
-#include "tensorflow/lite/kernels/internal/types.h"
-#include "tensorflow/lite/micro/micro_common.h"
+#include "tflite/tensorflow/lite/c/builtin_op_data.h"
+#include "tflite/tensorflow/lite/kernels/internal/types.h"
+#include "tflite/tensorflow/lite/micro/micro_common.h"
 
 namespace tflite {
 

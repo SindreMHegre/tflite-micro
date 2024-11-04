@@ -19,7 +19,7 @@ limitations under the License.
 #ifndef TENSORFLOW_LITE_MICRO_KERNELS_CEVA_CEVA_TFLM_LIB_H_
 #define TENSORFLOW_LITE_MICRO_KERNELS_CEVA_CEVA_TFLM_LIB_H_
 
-#include "tensorflow/lite/micro/kernels/ceva/types.h"
+#include "tflite/tensorflow/lite/micro/kernels/ceva/types.h"
 
 #if defined(__cplusplus)
 extern "C" {

@@ -17,7 +17,7 @@ limitations under the License.
 
 #pragma once
 
-#include "tensorflow/lite/micro/micro_mutable_op_resolver.h"
+#include "tflite/tensorflow/lite/micro/micro_mutable_op_resolver.h"
 
 constexpr int kNumberOperators = ${number_of_ops};
 

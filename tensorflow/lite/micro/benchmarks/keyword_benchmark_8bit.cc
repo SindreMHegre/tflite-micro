@@ -16,16 +16,16 @@ limitations under the License.
 #include <cstdint>
 #include <cstdlib>
 
-#include "tensorflow/lite/c/common.h"
-#include "tensorflow/lite/micro/benchmarks/micro_benchmark.h"
-#include "tensorflow/lite/micro/kernels/fully_connected.h"
-#include "tensorflow/lite/micro/kernels/softmax.h"
-#include "tensorflow/lite/micro/kernels/svdf.h"
-#include "tensorflow/lite/micro/micro_log.h"
-#include "tensorflow/lite/micro/micro_mutable_op_resolver.h"
-#include "tensorflow/lite/micro/micro_profiler.h"
-#include "tensorflow/lite/micro/models/keyword_scrambled_8bit_model_data.h"
-#include "tensorflow/lite/micro/system_setup.h"
+#include "tflite/tensorflow/lite/c/common.h"
+#include "tflite/tensorflow/lite/micro/benchmarks/micro_benchmark.h"
+#include "tflite/tensorflow/lite/micro/kernels/fully_connected.h"
+#include "tflite/tensorflow/lite/micro/kernels/softmax.h"
+#include "tflite/tensorflow/lite/micro/kernels/svdf.h"
+#include "tflite/tensorflow/lite/micro/micro_log.h"
+#include "tflite/tensorflow/lite/micro/micro_mutable_op_resolver.h"
+#include "tflite/tensorflow/lite/micro/micro_profiler.h"
+#include "tflite/tensorflow/lite/micro/models/keyword_scrambled_8bit_model_data.h"
+#include "tflite/tensorflow/lite/micro/system_setup.h"
 
 /*
  * Keyword Spotting Benchmark for performance optimizations. The model used in

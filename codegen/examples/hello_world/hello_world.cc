@@ -14,7 +14,7 @@ limitations under the License.
 ==============================================================================*/
 
 #include "codegen/examples/hello_world/hello_world_model.h"
-#include "tensorflow/lite/c/c_api_types.h"
+#include "tflite/tensorflow/lite/c/c_api_types.h"
 
 int main(int argc, char** argv) {
   hello_world_model::Model hello_world{};

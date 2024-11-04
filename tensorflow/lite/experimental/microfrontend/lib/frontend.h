@@ -18,12 +18,12 @@ limitations under the License.
 #include <stdint.h>
 #include <stdlib.h>
 
-#include "tensorflow/lite/experimental/microfrontend/lib/fft.h"
-#include "tensorflow/lite/experimental/microfrontend/lib/filterbank.h"
-#include "tensorflow/lite/experimental/microfrontend/lib/log_scale.h"
-#include "tensorflow/lite/experimental/microfrontend/lib/noise_reduction.h"
-#include "tensorflow/lite/experimental/microfrontend/lib/pcan_gain_control.h"
-#include "tensorflow/lite/experimental/microfrontend/lib/window.h"
+#include "tflite/tensorflow/lite/experimental/microfrontend/lib/fft.h"
+#include "tflite/tensorflow/lite/experimental/microfrontend/lib/filterbank.h"
+#include "tflite/tensorflow/lite/experimental/microfrontend/lib/log_scale.h"
+#include "tflite/tensorflow/lite/experimental/microfrontend/lib/noise_reduction.h"
+#include "tflite/tensorflow/lite/experimental/microfrontend/lib/pcan_gain_control.h"
+#include "tflite/tensorflow/lite/experimental/microfrontend/lib/window.h"
 
 #ifdef __cplusplus
 extern "C" {

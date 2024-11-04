@@ -13,7 +13,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 ==============================================================================*/
 
-#include "tensorflow/lite/micro/testing/micro_test.h"
+#include "tflite/tensorflow/lite/micro/testing/micro_test.h"
 
 namespace {
 // Change this number to have a binary with a different

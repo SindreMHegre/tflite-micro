@@ -13,9 +13,9 @@ See the License for the specific language governing permissions and
 limitations under the License.
 ==============================================================================*/
 
-#include "tensorflow/lite/micro/memory_planner/non_persistent_buffer_planner_shim.h"
+#include "tflite/tensorflow/lite/micro/memory_planner/non_persistent_buffer_planner_shim.h"
 
-#include "tensorflow/lite/micro/testing/micro_test.h"
+#include "tflite/tensorflow/lite/micro/testing/micro_test.h"
 
 namespace {
 constexpr int32_t kBufferCnt = 2;

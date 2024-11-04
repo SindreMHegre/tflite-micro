@@ -13,9 +13,9 @@ See the License for the specific language governing permissions and
 limitations under the License.
 ==============================================================================*/
 
-#include "signal/src/complex.h"
-#include "signal/src/energy.h"
-#include "tensorflow/core/framework/op_kernel.h"
+#include "tflite/signal/src/complex.h"
+#include "tflite/signal/src/energy.h"
+#include "tflite/tensorflow/core/framework/op_kernel.h"
 
 namespace tensorflow {
 namespace signal {

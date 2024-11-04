@@ -12,21 +12,21 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 ==============================================================================*/
-#include "tensorflow/lite/kernels/internal/reference/pooling.h"
+#include "tflite/tensorflow/lite/kernels/internal/reference/pooling.h"
 
 #include "mli_api.h"  // NOLINT
-#include "tensorflow/lite/c/builtin_op_data.h"
-#include "tensorflow/lite/kernels/internal/reference/integer_ops/pooling.h"
-#include "tensorflow/lite/kernels/internal/tensor_ctypes.h"
-#include "tensorflow/lite/kernels/kernel_util.h"
-#include "tensorflow/lite/kernels/padding.h"
-#include "tensorflow/lite/micro/kernels/arc_mli/mli_function_specializations.h"
-#include "tensorflow/lite/micro/kernels/arc_mli/mli_slicers.h"
-#include "tensorflow/lite/micro/kernels/arc_mli/mli_tf_utils.h"
-#include "tensorflow/lite/micro/kernels/arc_mli/scratch_buf_mgr.h"
-#include "tensorflow/lite/micro/kernels/arc_mli/scratch_buffers.h"
-#include "tensorflow/lite/micro/kernels/kernel_util.h"
-#include "tensorflow/lite/micro/micro_log.h"
+#include "tflite/tensorflow/lite/c/builtin_op_data.h"
+#include "tflite/tensorflow/lite/kernels/internal/reference/integer_ops/pooling.h"
+#include "tflite/tensorflow/lite/kernels/internal/tensor_ctypes.h"
+#include "tflite/tensorflow/lite/kernels/kernel_util.h"
+#include "tflite/tensorflow/lite/kernels/padding.h"
+#include "tflite/tensorflow/lite/micro/kernels/arc_mli/mli_function_specializations.h"
+#include "tflite/tensorflow/lite/micro/kernels/arc_mli/mli_slicers.h"
+#include "tflite/tensorflow/lite/micro/kernels/arc_mli/mli_tf_utils.h"
+#include "tflite/tensorflow/lite/micro/kernels/arc_mli/scratch_buf_mgr.h"
+#include "tflite/tensorflow/lite/micro/kernels/arc_mli/scratch_buffers.h"
+#include "tflite/tensorflow/lite/micro/kernels/kernel_util.h"
+#include "tflite/tensorflow/lite/micro/micro_log.h"
 
 namespace tflite {
 

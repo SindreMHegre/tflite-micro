@@ -15,15 +15,15 @@ limitations under the License.
 
 #include <string.h>
 
-#include "tensorflow/lite/c/common.h"
+#include "tflite/tensorflow/lite/c/common.h"
 
-#include "tensorflow/lite/micro/micro_log.h"
-#include "tensorflow/lite/micro/micro_profiler.h"
+#include "tflite/tensorflow/lite/micro/micro_log.h"
+#include "tflite/tensorflow/lite/micro/micro_profiler.h"
 #include "python/tflite_micro/python_ops_resolver.h"
-#include "tensorflow/lite/micro/recording_micro_allocator.h"
-#include "tensorflow/lite/micro/recording_micro_interpreter.h"
-#include "tensorflow/lite/micro/system_setup.h"
-#include "tensorflow/lite/micro/testing/micro_test.h"
+#include "tflite/tensorflow/lite/micro/recording_micro_allocator.h"
+#include "tflite/tensorflow/lite/micro/recording_micro_interpreter.h"
+#include "tflite/tensorflow/lite/micro/system_setup.h"
+#include "tflite/tensorflow/lite/micro/testing/micro_test.h"
 
 % for target_with_path in targets_with_path:
 #include "${target_with_path}_model_data.h"

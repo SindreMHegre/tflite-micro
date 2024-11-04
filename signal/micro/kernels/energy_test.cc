@@ -13,10 +13,10 @@ See the License for the specific language governing permissions and
 limitations under the License.
 ==============================================================================*/
 
-#include "signal/micro/kernels/energy_flexbuffers_generated_data.h"
-#include "tensorflow/lite/micro/kernels/kernel_runner.h"
-#include "tensorflow/lite/micro/test_helpers.h"
-#include "tensorflow/lite/micro/testing/micro_test.h"
+#include "tflite/signal/micro/kernels/energy_flexbuffers_generated_data.h"
+#include "tflite/tensorflow/lite/micro/kernels/kernel_runner.h"
+#include "tflite/tensorflow/lite/micro/test_helpers.h"
+#include "tflite/tensorflow/lite/micro/testing/micro_test.h"
 
 namespace tflite {
 namespace testing {

@@ -1,4 +1,4 @@
-#include "signal/micro/kernels/pcan_flexbuffers_generated_data.h"
+#include "tflite/signal/micro/kernels/pcan_flexbuffers_generated_data.h"
 
 const int g_gen_data_size_snr_shift_6_test = 20;
 const unsigned char g_gen_data_snr_shift_6_test[] = {

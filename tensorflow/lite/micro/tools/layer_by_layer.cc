@@ -26,22 +26,22 @@ limitations under the License.
 #include <random>
 #include <utility>
 
-#include "flatbuffers/flatbuffer_builder.h"
-#include "flatbuffers/util.h"
-#include "tensorflow/lite/c/c_api_types.h"
-#include "tensorflow/lite/c/common.h"
-#include "tensorflow/lite/kernels/op_macros.h"
-#include "tensorflow/lite/micro/kernels/kernel_util.h"
-#include "tensorflow/lite/micro/micro_allocator.h"
-#include "tensorflow/lite/micro/micro_context.h"
-#include "tensorflow/lite/micro/micro_interpreter.h"
-#include "tensorflow/lite/micro/micro_log.h"
-#include "tensorflow/lite/micro/micro_mutable_op_resolver.h"
-#include "tensorflow/lite/micro/micro_resource_variable.h"
-#include "tensorflow/lite/micro/micro_utils.h"
-#include "tensorflow/lite/micro/tools/benchmarking/op_resolver.h"
-#include "tensorflow/lite/micro/tools/layer_by_layer_schema_generated.h"
-#include "tensorflow/lite/schema/schema_generated.h"
+#include "flatbuffers/include/flatbuffers/flatbuffer_builder.h"
+#include "flatbuffers/include/flatbuffers/util.h"
+#include "tflite/tensorflow/lite/c/c_api_types.h"
+#include "tflite/tensorflow/lite/c/common.h"
+#include "tflite/tensorflow/lite/kernels/op_macros.h"
+#include "tflite/tensorflow/lite/micro/kernels/kernel_util.h"
+#include "tflite/tensorflow/lite/micro/micro_allocator.h"
+#include "tflite/tensorflow/lite/micro/micro_context.h"
+#include "tflite/tensorflow/lite/micro/micro_interpreter.h"
+#include "tflite/tensorflow/lite/micro/micro_log.h"
+#include "tflite/tensorflow/lite/micro/micro_mutable_op_resolver.h"
+#include "tflite/tensorflow/lite/micro/micro_resource_variable.h"
+#include "tflite/tensorflow/lite/micro/micro_utils.h"
+#include "tflite/tensorflow/lite/micro/tools/benchmarking/op_resolver.h"
+#include "tflite/tensorflow/lite/micro/tools/layer_by_layer_schema_generated.h"
+#include "tflite/tensorflow/lite/schema/schema_generated.h"
 
 namespace tflite {
 

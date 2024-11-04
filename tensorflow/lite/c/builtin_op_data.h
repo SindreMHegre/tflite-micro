@@ -18,6 +18,6 @@ limitations under the License.
 /// For documentation, see
 /// third_party/tensorflow/lite/core/c/builtin_op_data.h
 
-#include "tensorflow/lite/core/c/builtin_op_data.h"
+#include "tflite/tensorflow/lite/core/c/builtin_op_data.h"
 
 #endif  // TENSORFLOW_LITE_C_BUILTIN_OP_DATA_H_

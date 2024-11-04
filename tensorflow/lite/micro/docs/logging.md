@@ -23,7 +23,7 @@ TFLM currently support `MicroPrintf` to log errors or messages to the terminal. 
 ## To use MicroPrintf in your application code or kernel implementations:
 ### Include this header file:
 ```c++
-#include "tensorflow/lite/micro/micro_log.h"
+#include "tflite/tensorflow/lite/micro/micro_log.h"
 ```
 
 ### Introduce this Bazel BUILD dependency:
@@ -41,4 +41,4 @@ MicroPrintf("TFLM is the best! Bring ML to Embedded targets!");
 ```
 
 ## Do Not Use:
-TFLM does not support/recommend the use of `TF_LITE_KERNEL_LOG` and `TF_LITE_REPORT_ERROR` to log errors or messages to the terminal. 
+TFLM does not support/recommend the use of `TF_LITE_KERNEL_LOG` and `TF_LITE_REPORT_ERROR` to log errors or messages to the terminal.

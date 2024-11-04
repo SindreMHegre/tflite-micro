@@ -16,9 +16,9 @@ limitations under the License.
 #ifndef TENSORFLOW_LITE_MICRO_MICRO_GRAPH_H_
 #define TENSORFLOW_LITE_MICRO_MICRO_GRAPH_H_
 
-#include "tensorflow/lite/micro/compatibility.h"
-#include "tensorflow/lite/micro/micro_common.h"
-#include "tensorflow/lite/micro/micro_resource_variable.h"
+#include "tflite/tensorflow/lite/micro/compatibility.h"
+#include "tflite/tensorflow/lite/micro/micro_common.h"
+#include "tflite/tensorflow/lite/micro/micro_resource_variable.h"
 
 namespace tflite {
 

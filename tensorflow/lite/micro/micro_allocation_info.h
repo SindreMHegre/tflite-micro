@@ -15,11 +15,11 @@ limitations under the License.
 #ifndef TENSORFLOW_LITE_MICRO_MICRO_ALLOCATION_INFO_H_
 #define TENSORFLOW_LITE_MICRO_MICRO_ALLOCATION_INFO_H_
 
-#include "tensorflow/lite/c/common.h"
-#include "tensorflow/lite/micro/compatibility.h"
-#include "tensorflow/lite/micro/flatbuffer_utils.h"
-#include "tensorflow/lite/micro/micro_allocator.h"
-#include "tensorflow/lite/schema/schema_generated.h"
+#include "tflite/tensorflow/lite/c/common.h"
+#include "tflite/tensorflow/lite/micro/compatibility.h"
+#include "tflite/tensorflow/lite/micro/flatbuffer_utils.h"
+#include "tflite/tensorflow/lite/micro/micro_allocator.h"
+#include "tflite/tensorflow/lite/schema/schema_generated.h"
 
 namespace tflite {
 

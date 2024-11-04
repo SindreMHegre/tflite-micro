@@ -12,7 +12,7 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 ==============================================================================*/
-#include "tensorflow/lite/micro/system_setup.h"
+#include "tflite/tensorflow/lite/micro/system_setup.h"
 
 // This file provides a skeleton application without the TFLM Framework
 // (interpreter, memory planner etc). This is used to measure the bare minimum

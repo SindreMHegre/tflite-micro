@@ -17,16 +17,16 @@ limitations under the License.
 
 #include <cstring>
 
-#include "tensorflow/lite/c/builtin_op_data.h"
-#include "tensorflow/lite/c/common.h"
-#include "tensorflow/lite/kernels/internal/compatibility.h"
-#include "tensorflow/lite/kernels/kernel_util.h"
-#include "tensorflow/lite/micro/kernels/kernel_util.h"
-#include "tensorflow/lite/micro/memory_helpers.h"
-#include "tensorflow/lite/micro/micro_graph.h"
-#include "tensorflow/lite/micro/micro_log.h"
-#include "tensorflow/lite/micro/micro_resource_variable.h"
-#include "tensorflow/lite/schema/schema_generated.h"
+#include "tflite/tensorflow/lite/c/builtin_op_data.h"
+#include "tflite/tensorflow/lite/c/common.h"
+#include "tflite/tensorflow/lite/kernels/internal/compatibility.h"
+#include "tflite/tensorflow/lite/kernels/kernel_util.h"
+#include "tflite/tensorflow/lite/micro/kernels/kernel_util.h"
+#include "tflite/tensorflow/lite/micro/memory_helpers.h"
+#include "tflite/tensorflow/lite/micro/micro_graph.h"
+#include "tflite/tensorflow/lite/micro/micro_log.h"
+#include "tflite/tensorflow/lite/micro/micro_resource_variable.h"
+#include "tflite/tensorflow/lite/schema/schema_generated.h"
 
 namespace tflite {
 

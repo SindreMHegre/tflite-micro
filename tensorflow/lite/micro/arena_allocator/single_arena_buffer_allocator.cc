@@ -13,18 +13,18 @@ See the License for the specific language governing permissions and
 limitations under the License.
 ==============================================================================*/
 
-#include "tensorflow/lite/micro/arena_allocator/single_arena_buffer_allocator.h"
+#include "tflite/tensorflow/lite/micro/arena_allocator/single_arena_buffer_allocator.h"
 
 #include <cstddef>
 #include <cstdint>
 #include <new>
 
-#include "tensorflow/lite/c/c_api_types.h"
-#include "tensorflow/lite/c/common.h"
-#include "tensorflow/lite/kernels/internal/compatibility.h"
-#include "tensorflow/lite/kernels/op_macros.h"
-#include "tensorflow/lite/micro/memory_helpers.h"
-#include "tensorflow/lite/micro/micro_log.h"
+#include "tflite/tensorflow/lite/c/c_api_types.h"
+#include "tflite/tensorflow/lite/c/common.h"
+#include "tflite/tensorflow/lite/kernels/internal/compatibility.h"
+#include "tflite/tensorflow/lite/kernels/op_macros.h"
+#include "tflite/tensorflow/lite/micro/memory_helpers.h"
+#include "tflite/tensorflow/lite/micro/micro_log.h"
 
 namespace tflite {
 

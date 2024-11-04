@@ -13,11 +13,11 @@ See the License for the specific language governing permissions and
 limitations under the License.
 ==============================================================================*/
 
-#include "tensorflow/lite/micro/micro_allocation_info.h"
+#include "tflite/tensorflow/lite/micro/micro_allocation_info.h"
 
-#include "tensorflow/lite/micro/arena_allocator/single_arena_buffer_allocator.h"
-#include "tensorflow/lite/micro/test_helpers.h"
-#include "tensorflow/lite/micro/testing/micro_test.h"
+#include "tflite/tensorflow/lite/micro/arena_allocator/single_arena_buffer_allocator.h"
+#include "tflite/tensorflow/lite/micro/test_helpers.h"
+#include "tflite/tensorflow/lite/micro/testing/micro_test.h"
 
 TF_LITE_MICRO_TESTS_BEGIN
 

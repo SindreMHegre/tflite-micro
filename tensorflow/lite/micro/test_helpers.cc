@@ -13,7 +13,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 ==============================================================================*/
 
-#include "tensorflow/lite/micro/test_helpers.h"
+#include "tflite/tensorflow/lite/micro/test_helpers.h"
 
 #include <cstdarg>
 #include <cstddef>
@@ -21,17 +21,17 @@ limitations under the License.
 #include <initializer_list>
 #include <new>
 
-#include "flatbuffers/flatbuffers.h"  // from @flatbuffers
-#include "tensorflow/lite/c/common.h"
-#include "tensorflow/lite/kernels/internal/compatibility.h"
-#include "tensorflow/lite/kernels/internal/tensor_ctypes.h"
-#include "tensorflow/lite/kernels/kernel_util.h"
-#include "tensorflow/lite/micro/kernels/kernel_util.h"
-#include "tensorflow/lite/micro/memory_helpers.h"
-#include "tensorflow/lite/micro/micro_arena_constants.h"
-#include "tensorflow/lite/micro/micro_utils.h"
-#include "tensorflow/lite/micro/test_helper_custom_ops.h"
-#include "tensorflow/lite/schema/schema_generated.h"
+#include "flatbuffers/include/flatbuffers/flatbuffers.h"  // from @flatbuffers
+#include "tflite/tensorflow/lite/c/common.h"
+#include "tflite/tensorflow/lite/kernels/internal/compatibility.h"
+#include "tflite/tensorflow/lite/kernels/internal/tensor_ctypes.h"
+#include "tflite/tensorflow/lite/kernels/kernel_util.h"
+#include "tflite/tensorflow/lite/micro/kernels/kernel_util.h"
+#include "tflite/tensorflow/lite/micro/memory_helpers.h"
+#include "tflite/tensorflow/lite/micro/micro_arena_constants.h"
+#include "tflite/tensorflow/lite/micro/micro_utils.h"
+#include "tflite/tensorflow/lite/micro/test_helper_custom_ops.h"
+#include "tflite/tensorflow/lite/schema/schema_generated.h"
 
 // TODO(b/170464050): Use TFLM test only version of schema_utils.
 

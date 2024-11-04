@@ -15,11 +15,11 @@ limitations under the License.
 
 #include <ethosu_driver.h>
 
-#include "flatbuffers/flexbuffers.h"
-#include "tensorflow/lite/c/common.h"
-#include "tensorflow/lite/micro/kernels/kernel_util.h"
-#include "tensorflow/lite/micro/micro_context.h"
-#include "tensorflow/lite/micro/micro_log.h"
+#include "flatbuffers/include/flatbuffers/flexbuffers.h"
+#include "tflite/tensorflow/lite/c/common.h"
+#include "tflite/tensorflow/lite/micro/kernels/kernel_util.h"
+#include "tflite/tensorflow/lite/micro/micro_context.h"
+#include "tflite/tensorflow/lite/micro/micro_log.h"
 
 namespace tflite {
 namespace {

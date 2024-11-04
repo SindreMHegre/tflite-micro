@@ -17,8 +17,8 @@ limitations under the License.
 
 #include <cstddef>
 
-#include "tensorflow/lite/micro/micro_allocator.h"
-#include "tensorflow/lite/micro/micro_utils.h"
+#include "tflite/tensorflow/lite/micro/micro_allocator.h"
+#include "tflite/tensorflow/lite/micro/micro_utils.h"
 
 // Disallow Numpy 1.7 deprecated symbols.
 #define NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION
@@ -33,9 +33,9 @@ limitations under the License.
 #include "python/tflite_micro/python_ops_resolver.h"
 #include "python/tflite_micro/python_utils.h"
 #include "python/tflite_micro/shared_library.h"
-#include "tensorflow/lite/c/common.h"
-#include "tensorflow/lite/micro/micro_interpreter.h"
-#include "tensorflow/lite/micro/recording_micro_allocator.h"
+#include "tflite/tensorflow/lite/c/common.h"
+#include "tflite/tensorflow/lite/micro/micro_interpreter.h"
+#include "tflite/tensorflow/lite/micro/recording_micro_allocator.h"
 
 namespace tflite {
 namespace {

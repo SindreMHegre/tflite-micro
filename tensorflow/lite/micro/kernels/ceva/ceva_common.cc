@@ -13,7 +13,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 ==============================================================================*/
 
-#include "tensorflow/lite/micro/kernels/ceva/ceva_tflm_lib.h"
+#include "tflite/tensorflow/lite/micro/kernels/ceva/ceva_tflm_lib.h"
 #define CEVA_TFLM_KERNELS_SCRATCH_SIZE_VAL_DEF 32768
 int32_t CEVA_TFLM_KERNELS_SCRATCH_SIZE_VAL =
     CEVA_TFLM_KERNELS_SCRATCH_SIZE_VAL_DEF;

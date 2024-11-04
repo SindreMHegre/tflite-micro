@@ -19,10 +19,10 @@ limitations under the License.
 #include <algorithm>
 #include <limits>
 
-#include "tensorflow/lite/micro/kernels/lstm_eval.h"
-#include "tensorflow/lite/micro/kernels/testdata/lstm_test_data.h"
-#include "tensorflow/lite/micro/test_helpers.h"
-#include "tensorflow/lite/micro/testing/micro_test.h"
+#include "tflite/tensorflow/lite/micro/kernels/lstm_eval.h"
+#include "tflite/tensorflow/lite/micro/kernels/testdata/lstm_test_data.h"
+#include "tflite/tensorflow/lite/micro/test_helpers.h"
+#include "tflite/tensorflow/lite/micro/testing/micro_test.h"
 
 namespace tflite {
 namespace testing {

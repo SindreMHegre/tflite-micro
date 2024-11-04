@@ -13,9 +13,9 @@ See the License for the specific language governing permissions and
 limitations under the License.
 ==============================================================================*/
 
-#include "tensorflow/lite/micro/examples/person_detection/detection_responder.h"
+#include "tflite/tensorflow/lite/micro/examples/person_detection/detection_responder.h"
 
-#include "tensorflow/lite/micro/micro_log.h"
+#include "tflite/tensorflow/lite/micro/micro_log.h"
 
 // This dummy implementation writes person and no person scores to the error
 // console. Real applications will want to take some custom action instead, and

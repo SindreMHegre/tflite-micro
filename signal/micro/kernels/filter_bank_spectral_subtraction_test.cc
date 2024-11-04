@@ -15,11 +15,11 @@ limitations under the License.
 
 #include <cstdint>
 
-#include "signal/micro/kernels/filter_bank_spectral_subtraction_flexbuffers_generated_data.h"
-#include "tensorflow/lite/c/common.h"
-#include "tensorflow/lite/micro/kernels/kernel_runner.h"
-#include "tensorflow/lite/micro/test_helpers.h"
-#include "tensorflow/lite/micro/testing/micro_test.h"
+#include "tflite/signal/micro/kernels/filter_bank_spectral_subtraction_flexbuffers_generated_data.h"
+#include "tflite/tensorflow/lite/c/common.h"
+#include "tflite/tensorflow/lite/micro/kernels/kernel_runner.h"
+#include "tflite/tensorflow/lite/micro/test_helpers.h"
+#include "tflite/tensorflow/lite/micro/testing/micro_test.h"
 
 namespace tflite {
 namespace testing {

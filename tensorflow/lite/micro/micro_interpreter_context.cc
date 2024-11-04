@@ -13,12 +13,12 @@ See the License for the specific language governing permissions and
 limitations under the License.
 ==============================================================================*/
 
-#include "tensorflow/lite/micro/micro_interpreter_context.h"
+#include "tflite/tensorflow/lite/micro/micro_interpreter_context.h"
 
 #include <cstdint>
 
-#include "tensorflow/lite/kernels/internal/compatibility.h"
-#include "tensorflow/lite/micro/micro_utils.h"
+#include "tflite/tensorflow/lite/kernels/internal/compatibility.h"
+#include "tflite/tensorflow/lite/micro/micro_utils.h"
 
 namespace tflite {
 

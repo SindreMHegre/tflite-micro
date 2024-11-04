@@ -18,8 +18,8 @@ limitations under the License.
 #pragma once
 
 #include "codegen/runtime/micro_codegen_context.h"
-#include "tensorflow/lite/c/c_api_types.h"
-#include "tensorflow/lite/c/common.h"
+#include "tflite/tensorflow/lite/c/c_api_types.h"
+#include "tflite/tensorflow/lite/c/common.h"
 
 namespace hello_world_model {
 

@@ -19,7 +19,7 @@ limitations under the License.
 #include <cstddef>
 #include <cstdint>
 
-#include "tensorflow/lite/kernels/internal/runtime_shape.h"
+#include "tflite/tensorflow/lite/kernels/internal/runtime_shape.h"
 #ifndef ALLOW_SLOW_GENERIC_DEPTHWISECONV_FALLBACK
 #ifdef GEMMLOWP_ALLOW_SLOW_SCALAR_FALLBACK
 #define ALLOW_SLOW_GENERIC_DEPTHWISECONV_FALLBACK
@@ -29,11 +29,11 @@ limitations under the License.
 #include <cmath>
 #include <functional>
 
-#include "fixedpoint/fixedpoint.h"
-#include "tensorflow/lite/core/macros.h"
-#include "tensorflow/lite/kernels/internal/cppmath.h"
-#include "tensorflow/lite/kernels/internal/optimized/neon_check.h"
-#include "tensorflow/lite/kernels/internal/types.h"
+#include "gemmlowp/fixedpoint/fixedpoint.h"
+#include "tflite/tensorflow/lite/core/macros.h"
+#include "tflite/tensorflow/lite/kernels/internal/cppmath.h"
+#include "tflite/tensorflow/lite/kernels/internal/optimized/neon_check.h"
+#include "tflite/tensorflow/lite/kernels/internal/types.h"
 
 namespace tflite {
 

@@ -15,14 +15,14 @@ limitations under the License.
 
 #include <stdint.h>
 
-#include "signal/src/circular_buffer.h"
-#include "tensorflow/lite/kernels/internal/tensor_ctypes.h"
-#include "tensorflow/lite/kernels/kernel_util.h"
-#include "tensorflow/lite/micro/flatbuffer_utils.h"
-#include "tensorflow/lite/micro/kernels/kernel_util.h"
-#include "tensorflow/lite/micro/memory_helpers.h"
-#include "tensorflow/lite/micro/micro_context.h"
-#include "tensorflow/lite/micro/micro_utils.h"
+#include "tflite/signal/src/circular_buffer.h"
+#include "tflite/tensorflow/lite/kernels/internal/tensor_ctypes.h"
+#include "tflite/tensorflow/lite/kernels/kernel_util.h"
+#include "tflite/tensorflow/lite/micro/flatbuffer_utils.h"
+#include "tflite/tensorflow/lite/micro/kernels/kernel_util.h"
+#include "tflite/tensorflow/lite/micro/memory_helpers.h"
+#include "tflite/tensorflow/lite/micro/micro_context.h"
+#include "tflite/tensorflow/lite/micro/micro_utils.h"
 
 namespace tflite {
 namespace {

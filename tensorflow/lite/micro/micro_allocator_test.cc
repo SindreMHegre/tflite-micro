@@ -13,21 +13,21 @@ See the License for the specific language governing permissions and
 limitations under the License.
 ==============================================================================*/
 
-#include "tensorflow/lite/micro/micro_allocator.h"
+#include "tflite/tensorflow/lite/micro/micro_allocator.h"
 
 #include <cstdint>
 
-#include "tensorflow/lite/c/common.h"
-#include "tensorflow/lite/micro/arena_allocator/single_arena_buffer_allocator.h"
-#include "tensorflow/lite/micro/kernels/kernel_util.h"
-#include "tensorflow/lite/micro/memory_helpers.h"
-#include "tensorflow/lite/micro/memory_planner/greedy_memory_planner.h"
-#include "tensorflow/lite/micro/memory_planner/non_persistent_buffer_planner_shim.h"
-#include "tensorflow/lite/micro/micro_allocator.h"
-#include "tensorflow/lite/micro/micro_arena_constants.h"
-#include "tensorflow/lite/micro/test_helpers.h"
-#include "tensorflow/lite/micro/testing/micro_test.h"
-#include "tensorflow/lite/micro/testing/test_conv_model.h"
+#include "tflite/tensorflow/lite/c/common.h"
+#include "tflite/tensorflow/lite/micro/arena_allocator/single_arena_buffer_allocator.h"
+#include "tflite/tensorflow/lite/micro/kernels/kernel_util.h"
+#include "tflite/tensorflow/lite/micro/memory_helpers.h"
+#include "tflite/tensorflow/lite/micro/memory_planner/greedy_memory_planner.h"
+#include "tflite/tensorflow/lite/micro/memory_planner/non_persistent_buffer_planner_shim.h"
+#include "tflite/tensorflow/lite/micro/micro_allocator.h"
+#include "tflite/tensorflow/lite/micro/micro_arena_constants.h"
+#include "tflite/tensorflow/lite/micro/test_helpers.h"
+#include "tflite/tensorflow/lite/micro/testing/micro_test.h"
+#include "tflite/tensorflow/lite/micro/testing/test_conv_model.h"
 
 namespace tflite {
 namespace testing {

@@ -12,15 +12,15 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 ==============================================================================*/
-#include "tensorflow/lite/micro/micro_interpreter_context.h"
+#include "tflite/tensorflow/lite/micro/micro_interpreter_context.h"
 
 #include <cstdint>
 
-#include "tensorflow/lite/micro/micro_allocator.h"
-#include "tensorflow/lite/micro/micro_arena_constants.h"
-#include "tensorflow/lite/micro/micro_interpreter_graph.h"
-#include "tensorflow/lite/micro/test_helpers.h"
-#include "tensorflow/lite/micro/testing/micro_test.h"
+#include "tflite/tensorflow/lite/micro/micro_allocator.h"
+#include "tflite/tensorflow/lite/micro/micro_arena_constants.h"
+#include "tflite/tensorflow/lite/micro/micro_interpreter_graph.h"
+#include "tflite/tensorflow/lite/micro/test_helpers.h"
+#include "tflite/tensorflow/lite/micro/testing/micro_test.h"
 
 using ::tflite::testing::IntArrayFromInts;
 

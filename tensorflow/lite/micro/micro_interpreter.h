@@ -18,18 +18,18 @@ limitations under the License.
 #include <cstddef>
 #include <cstdint>
 
-#include "flatbuffers/flatbuffers.h"  // from @flatbuffers
-#include "tensorflow/lite/c/c_api_types.h"
-#include "tensorflow/lite/c/common.h"
-#include "tensorflow/lite/core/api/error_reporter.h"
-#include "tensorflow/lite/kernels/internal/tensor_ctypes.h"
-#include "tensorflow/lite/micro/micro_allocator.h"
-#include "tensorflow/lite/micro/micro_interpreter_context.h"
-#include "tensorflow/lite/micro/micro_interpreter_graph.h"
-#include "tensorflow/lite/micro/micro_op_resolver.h"
-#include "tensorflow/lite/micro/micro_profiler_interface.h"
-#include "tensorflow/lite/portable_type_to_tflitetype.h"
-#include "tensorflow/lite/schema/schema_generated.h"
+#include "flatbuffers/include/flatbuffers/flatbuffers.h"  // from @flatbuffers
+#include "tflite/tensorflow/lite/c/c_api_types.h"
+#include "tflite/tensorflow/lite/c/common.h"
+#include "tflite/tensorflow/lite/core/api/error_reporter.h"
+#include "tflite/tensorflow/lite/kernels/internal/tensor_ctypes.h"
+#include "tflite/tensorflow/lite/micro/micro_allocator.h"
+#include "tflite/tensorflow/lite/micro/micro_interpreter_context.h"
+#include "tflite/tensorflow/lite/micro/micro_interpreter_graph.h"
+#include "tflite/tensorflow/lite/micro/micro_op_resolver.h"
+#include "tflite/tensorflow/lite/micro/micro_profiler_interface.h"
+#include "tflite/tensorflow/lite/portable_type_to_tflitetype.h"
+#include "tflite/tensorflow/lite/schema/schema_generated.h"
 
 /// Copied from tensorflow/lite/version.h to avoid a dependency chain into
 // tensorflow/core.

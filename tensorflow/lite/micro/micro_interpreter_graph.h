@@ -16,11 +16,11 @@ limitations under the License.
 #ifndef TENSORFLOW_LITE_MICRO_MICRO_INTERPRETER_GRAPH_H_
 #define TENSORFLOW_LITE_MICRO_MICRO_INTERPRETER_GRAPH_H_
 
-#include "tensorflow/lite/micro/micro_allocator.h"
-#include "tensorflow/lite/micro/micro_common.h"
-#include "tensorflow/lite/micro/micro_graph.h"
-#include "tensorflow/lite/micro/micro_resource_variable.h"
-#include "tensorflow/lite/schema/schema_generated.h"
+#include "tflite/tensorflow/lite/micro/micro_allocator.h"
+#include "tflite/tensorflow/lite/micro/micro_common.h"
+#include "tflite/tensorflow/lite/micro/micro_graph.h"
+#include "tflite/tensorflow/lite/micro/micro_resource_variable.h"
+#include "tflite/tensorflow/lite/schema/schema_generated.h"
 
 namespace tflite {
 

@@ -13,7 +13,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 ==============================================================================*/
 
-#include "tensorflow/lite/micro/micro_mutable_op_resolver.h"
+#include "tflite/tensorflow/lite/micro/micro_mutable_op_resolver.h"
 
 using PytorchOpsResolver = tflite::MicroMutableOpResolver<128>;
 

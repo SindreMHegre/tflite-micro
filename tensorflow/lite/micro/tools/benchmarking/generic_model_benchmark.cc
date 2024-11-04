@@ -22,20 +22,20 @@ limitations under the License.
 #include <random>
 #include <type_traits>
 
-#include "tensorflow/lite/c/c_api_types.h"
-#include "tensorflow/lite/c/common.h"
-#include "tensorflow/lite/micro/micro_context.h"
-#include "tensorflow/lite/micro/micro_log.h"
-#include "tensorflow/lite/micro/micro_mutable_op_resolver.h"
-#include "tensorflow/lite/micro/micro_op_resolver.h"
-#include "tensorflow/lite/micro/micro_profiler.h"
-#include "tensorflow/lite/micro/recording_micro_allocator.h"
-#include "tensorflow/lite/micro/recording_micro_interpreter.h"
-#include "tensorflow/lite/micro/system_setup.h"
-#include "tensorflow/lite/micro/tools/benchmarking/metrics.h"
-#include "tensorflow/lite/micro/tools/benchmarking/op_resolver.h"
-#include "tensorflow/lite/micro/tools/benchmarking/show_meta_data.h"
-#include "tensorflow/lite/schema/schema_generated.h"
+#include "tflite/tensorflow/lite/c/c_api_types.h"
+#include "tflite/tensorflow/lite/c/common.h"
+#include "tflite/tensorflow/lite/micro/micro_context.h"
+#include "tflite/tensorflow/lite/micro/micro_log.h"
+#include "tflite/tensorflow/lite/micro/micro_mutable_op_resolver.h"
+#include "tflite/tensorflow/lite/micro/micro_op_resolver.h"
+#include "tflite/tensorflow/lite/micro/micro_profiler.h"
+#include "tflite/tensorflow/lite/micro/recording_micro_allocator.h"
+#include "tflite/tensorflow/lite/micro/recording_micro_interpreter.h"
+#include "tflite/tensorflow/lite/micro/system_setup.h"
+#include "tflite/tensorflow/lite/micro/tools/benchmarking/metrics.h"
+#include "tflite/tensorflow/lite/micro/tools/benchmarking/op_resolver.h"
+#include "tflite/tensorflow/lite/micro/tools/benchmarking/show_meta_data.h"
+#include "tflite/tensorflow/lite/schema/schema_generated.h"
 
 #if defined(GENERIC_BENCHMARK_USING_BUILTIN_MODEL)
 #if !defined(GENERIC_BENCHMARK_MODEL_HEADER_PATH)

@@ -13,14 +13,14 @@ See the License for the specific language governing permissions and
 limitations under the License.
 ==============================================================================*/
 
-#include "tensorflow/lite/c/common.h"
-#include "tensorflow/lite/micro/examples/dtln/dtln_inout_data.h"
-#include "tensorflow/lite/micro/examples/dtln/dtln_noise_suppression_model_data.h"
-#include "tensorflow/lite/micro/micro_interpreter.h"
-#include "tensorflow/lite/micro/micro_log.h"
-#include "tensorflow/lite/micro/micro_mutable_op_resolver.h"
-#include "tensorflow/lite/micro/testing/micro_test.h"
-#include "tensorflow/lite/schema/schema_generated.h"
+#include "tflite/tensorflow/lite/c/common.h"
+#include "tflite/tensorflow/lite/micro/examples/dtln/dtln_inout_data.h"
+#include "tflite/tensorflow/lite/micro/examples/dtln/dtln_noise_suppression_model_data.h"
+#include "tflite/tensorflow/lite/micro/micro_interpreter.h"
+#include "tflite/tensorflow/lite/micro/micro_log.h"
+#include "tflite/tensorflow/lite/micro/micro_mutable_op_resolver.h"
+#include "tflite/tensorflow/lite/micro/testing/micro_test.h"
+#include "tflite/tensorflow/lite/schema/schema_generated.h"
 
 TF_LITE_MICRO_TESTS_BEGIN
 

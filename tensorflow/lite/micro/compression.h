@@ -18,7 +18,7 @@ limitations under the License.
 
 #ifdef USE_TFLM_COMPRESSION
 
-#include "tensorflow/lite/c/common.h"
+#include "tflite/tensorflow/lite/c/common.h"
 
 namespace tflite {
 

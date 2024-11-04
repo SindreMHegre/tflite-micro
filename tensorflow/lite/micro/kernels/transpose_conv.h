@@ -17,9 +17,9 @@ limitations under the License.
 
 #include <cstdint>
 
-#include "tensorflow/lite/c/builtin_op_data.h"
-#include "tensorflow/lite/kernels/internal/types.h"
-#include "tensorflow/lite/micro/micro_common.h"
+#include "tflite/tensorflow/lite/c/builtin_op_data.h"
+#include "tflite/tensorflow/lite/kernels/internal/types.h"
+#include "tflite/tensorflow/lite/micro/micro_common.h"
 
 namespace tflite {
 

@@ -13,12 +13,12 @@ See the License for the specific language governing permissions and
 limitations under the License.
 ==============================================================================*/
 
-#include "tensorflow/lite/micro/micro_log.h"
+#include "tflite/tensorflow/lite/micro/micro_log.h"
 
 #include <cstddef>
 #include <cstring>
 
-#include "tensorflow/lite/micro/testing/micro_test.h"
+#include "tflite/tensorflow/lite/micro/testing/micro_test.h"
 
 namespace {
 

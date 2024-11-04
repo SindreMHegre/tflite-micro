@@ -16,7 +16,7 @@ limitations under the License.
 #ifndef SIGNAL_SRC_KISS_FFT_WRAPPERS_KISS_FFT_INT32_H_
 #define SIGNAL_SRC_KISS_FFT_WRAPPERS_KISS_FFT_INT32_H_
 
-#include "signal/src/kiss_fft_wrappers/kiss_fft_common.h"
+#include "tflite/signal/src/kiss_fft_wrappers/kiss_fft_common.h"
 
 // Wrap floating point kiss fft in its own namespace. Enables us to link an
 // application with different kiss fft resolutions

@@ -33,6 +33,8 @@ namespace tensor_utils {
 template <typename T>
 bool PortableIsZeroVector(const T* vector, int v_size) {
   for (int i = 0; i < v_size; ++i) {
+    #pragma GCC diagnostic push
+    #pragma GCC diagnostic ignored "-Wfloat-equal"
     if (vector[i] != 0) {
       return false;
     }

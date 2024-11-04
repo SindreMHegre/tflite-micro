@@ -16,8 +16,8 @@ limitations under the License.
 #ifndef TENSORFLOW_LITE_MICRO_ARENA_ALLOCATOR_RECORDING_SINGLE_ARENA_BUFFER_ALLOCATOR_H_
 #define TENSORFLOW_LITE_MICRO_ARENA_ALLOCATOR_RECORDING_SINGLE_ARENA_BUFFER_ALLOCATOR_H_
 
-#include "tensorflow/lite/micro/arena_allocator/single_arena_buffer_allocator.h"
-#include "tensorflow/lite/micro/compatibility.h"
+#include "tflite/tensorflow/lite/micro/arena_allocator/single_arena_buffer_allocator.h"
+#include "tflite/tensorflow/lite/micro/compatibility.h"
 
 namespace tflite {
 

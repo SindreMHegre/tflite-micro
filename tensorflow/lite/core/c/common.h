@@ -41,7 +41,7 @@ limitations under the License.
 // NOLINTBEGIN(whitespace/line_length)
 /// \note Users of TensorFlow Lite should use
 /// \code
-/// #include "tensorflow/lite/c/common.h"
+/// #include "tflite/tensorflow/lite/c/common.h"
 /// \endcode
 /// to access the APIs documented on this page.
 // NOLINTEND(whitespace/line_length)
@@ -57,7 +57,7 @@ limitations under the License.
 #include <stddef.h>
 #include <stdint.h>
 
-#include "tensorflow/lite/core/c/c_api_types.h"  // IWYU pragma: export
+#include "tflite/tensorflow/lite/core/c/c_api_types.h"  // IWYU pragma: export
 
 #ifdef __cplusplus
 extern "C" {

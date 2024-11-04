@@ -15,8 +15,8 @@ limitations under the License.
 
 #include <cstdint>
 
-#include "signal/src/circular_buffer.h"
-#include "tensorflow/core/framework/op_kernel.h"
+#include "tflite/signal/src/circular_buffer.h"
+#include "tflite/tensorflow/core/framework/op_kernel.h"
 
 namespace tensorflow {
 namespace signal {

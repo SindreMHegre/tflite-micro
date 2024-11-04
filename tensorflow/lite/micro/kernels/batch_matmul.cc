@@ -13,19 +13,19 @@ See the License for the specific language governing permissions and
 limitations under the License.
 ==============================================================================*/
 
-#include "tensorflow/lite/kernels/internal/reference/batch_matmul.h"
+#include "tflite/tensorflow/lite/kernels/internal/reference/batch_matmul.h"
 
 #include <algorithm>
 #include <cstdint>
 #include <limits>
 
-#include "tensorflow/lite/core/c/common.h"
-#include "tensorflow/lite/kernels/internal/quantization_util.h"
-#include "tensorflow/lite/kernels/internal/reference/transpose.h"
-#include "tensorflow/lite/kernels/internal/tensor_ctypes.h"
-#include "tensorflow/lite/kernels/internal/types.h"
-#include "tensorflow/lite/micro/kernels/batch_matmul.h"
-#include "tensorflow/lite/micro/micro_log.h"
+#include "tflite/tensorflow/lite/core/c/common.h"
+#include "tflite/tensorflow/lite/kernels/internal/quantization_util.h"
+#include "tflite/tensorflow/lite/kernels/internal/reference/transpose.h"
+#include "tflite/tensorflow/lite/kernels/internal/tensor_ctypes.h"
+#include "tflite/tensorflow/lite/kernels/internal/types.h"
+#include "tflite/tensorflow/lite/micro/kernels/batch_matmul.h"
+#include "tflite/tensorflow/lite/micro/micro_log.h"
 
 namespace tflite {
 namespace {

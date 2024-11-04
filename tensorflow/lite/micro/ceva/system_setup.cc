@@ -13,11 +13,11 @@ See the License for the specific language governing permissions and
 limitations under the License.
 ==============================================================================*/
 
-#include "tensorflow/lite/micro/system_setup.h"
+#include "tflite/tensorflow/lite/micro/system_setup.h"
 
 #include <ceva-time.h>
 
-#include "tensorflow/lite/micro/micro_time.h"
+#include "tflite/tensorflow/lite/micro/micro_time.h"
 
 namespace tflite {
 

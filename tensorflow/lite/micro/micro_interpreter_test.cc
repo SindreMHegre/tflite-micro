@@ -13,17 +13,17 @@ See the License for the specific language governing permissions and
 limitations under the License.
 ==============================================================================*/
 
-#include "tensorflow/lite/micro/micro_interpreter.h"
+#include "tflite/tensorflow/lite/micro/micro_interpreter.h"
 
 #include <cstdint>
 
-#include "tensorflow/lite/micro/arena_allocator/recording_single_arena_buffer_allocator.h"
-#include "tensorflow/lite/micro/compatibility.h"
-#include "tensorflow/lite/micro/micro_arena_constants.h"
-#include "tensorflow/lite/micro/micro_profiler_interface.h"
-#include "tensorflow/lite/micro/recording_micro_allocator.h"
-#include "tensorflow/lite/micro/test_helpers.h"
-#include "tensorflow/lite/micro/testing/micro_test.h"
+#include "tflite/tensorflow/lite/micro/arena_allocator/recording_single_arena_buffer_allocator.h"
+#include "tflite/tensorflow/lite/micro/compatibility.h"
+#include "tflite/tensorflow/lite/micro/micro_arena_constants.h"
+#include "tflite/tensorflow/lite/micro/micro_profiler_interface.h"
+#include "tflite/tensorflow/lite/micro/recording_micro_allocator.h"
+#include "tflite/tensorflow/lite/micro/test_helpers.h"
+#include "tflite/tensorflow/lite/micro/testing/micro_test.h"
 
 namespace tflite {
 namespace {

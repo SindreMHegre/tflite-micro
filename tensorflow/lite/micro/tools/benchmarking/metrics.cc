@@ -13,7 +13,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 ==============================================================================*/
 
-#include "tensorflow/lite/micro/tools/benchmarking/metrics.h"
+#include "tflite/tensorflow/lite/micro/tools/benchmarking/metrics.h"
 
 #include <cstddef>
 #include <cstring>
@@ -21,8 +21,8 @@ limitations under the License.
 #include <type_traits>
 #include <utility>
 
-#include "tensorflow/lite/kernels/internal/compatibility.h"
-#include "tensorflow/lite/micro/micro_log.h"
+#include "tflite/tensorflow/lite/kernels/internal/compatibility.h"
+#include "tflite/tensorflow/lite/micro/micro_log.h"
 
 namespace tflite {
 

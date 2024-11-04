@@ -13,7 +13,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 ==============================================================================*/
 
-#include "signal/src/kiss_fft_wrappers/kiss_fft_common.h"
+#include "tflite/signal/src/kiss_fft_wrappers/kiss_fft_common.h"
 
 #undef FIXED_POINT
 namespace kiss_fft_float {

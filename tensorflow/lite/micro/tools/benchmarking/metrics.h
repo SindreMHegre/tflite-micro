@@ -16,8 +16,8 @@ limitations under the License.
 #ifndef TFLM_BENCHMARK_INTERNAL_METRICS_H_
 #define TFLM_BENCHMARK_INTERNAL_METRICS_H_
 
-#include "tensorflow/lite/micro/micro_profiler.h"
-#include "tensorflow/lite/micro/recording_micro_allocator.h"
+#include "tflite/tensorflow/lite/micro/micro_profiler.h"
+#include "tflite/tensorflow/lite/micro/recording_micro_allocator.h"
 
 namespace tflite {
 

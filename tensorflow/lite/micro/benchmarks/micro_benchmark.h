@@ -18,12 +18,12 @@ limitations under the License.
 
 #include <climits>
 
-#include "tensorflow/lite/micro/micro_log.h"
-#include "tensorflow/lite/micro/micro_op_resolver.h"
-#include "tensorflow/lite/micro/micro_profiler_interface.h"
-#include "tensorflow/lite/micro/micro_resource_variable.h"
-#include "tensorflow/lite/micro/micro_time.h"
-#include "tensorflow/lite/micro/recording_micro_interpreter.h"
+#include "tflite/tensorflow/lite/micro/micro_log.h"
+#include "tflite/tensorflow/lite/micro/micro_op_resolver.h"
+#include "tflite/tensorflow/lite/micro/micro_profiler_interface.h"
+#include "tflite/tensorflow/lite/micro/micro_resource_variable.h"
+#include "tflite/tensorflow/lite/micro/micro_time.h"
+#include "tflite/tensorflow/lite/micro/recording_micro_interpreter.h"
 
 namespace tflite {
 

@@ -13,7 +13,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 ==============================================================================*/
 
-#include "tensorflow/lite/c/common.h"
+#include "tflite/tensorflow/lite/c/common.h"
 
 extern int8_t feature_data[];
 extern int8_t golden_ref[];

@@ -13,7 +13,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 ==============================================================================*/
 
-#include "signal/testdata/fft_test_data.h"
+#include "tflite/signal/testdata/fft_test_data.h"
 
 namespace tflite {
 

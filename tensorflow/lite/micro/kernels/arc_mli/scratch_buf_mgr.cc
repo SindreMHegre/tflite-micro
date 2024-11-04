@@ -13,13 +13,13 @@ See the License for the specific language governing permissions and
 limitations under the License.
 ==============================================================================*/
 
-#include "tensorflow/lite/micro/kernels/arc_mli/scratch_buf_mgr.h"
+#include "tflite/tensorflow/lite/micro/kernels/arc_mli/scratch_buf_mgr.h"
 
 #include <limits.h>
 
 #include <algorithm>
 
-#include "tensorflow/lite/micro/kernels/arc_mli/scratch_buffers.h"
+#include "tflite/tensorflow/lite/micro/kernels/arc_mli/scratch_buffers.h"
 
 namespace tflite {
 namespace ops {

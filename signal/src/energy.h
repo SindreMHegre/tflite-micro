@@ -18,7 +18,7 @@ limitations under the License.
 
 #include <stdint.h>
 
-#include "signal/src/complex.h"
+#include "tflite/signal/src/complex.h"
 
 namespace tflite {
 namespace tflm_signal {

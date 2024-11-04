@@ -13,7 +13,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 ==============================================================================*/
 
-#include "tensorflow/lite/micro/micro_time.h"
+#include "tflite/tensorflow/lite/micro/micro_time.h"
 
 // Set in micro/tools/make/targets/cortex_m_generic_makefile.inc.
 // Needed for the DWT and PMU counters.

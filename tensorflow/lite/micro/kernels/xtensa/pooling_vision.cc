@@ -14,13 +14,13 @@ limitations under the License.
 ==============================================================================*/
 #if defined(VISION_P6)
 
-#include "tensorflow/lite/c/builtin_op_data.h"
-#include "tensorflow/lite/kernels/internal/reference/pooling.h"
-#include "tensorflow/lite/kernels/kernel_util.h"
-#include "tensorflow/lite/micro/kernels/kernel_util.h"
-#include "tensorflow/lite/micro/kernels/pooling.h"
-#include "tensorflow/lite/micro/kernels/xtensa/xtensa.h"
-#include "tensorflow/lite/micro/kernels/xtensa/xtensa_pooling.h"
+#include "tflite/tensorflow/lite/c/builtin_op_data.h"
+#include "tflite/tensorflow/lite/kernels/internal/reference/pooling.h"
+#include "tflite/tensorflow/lite/kernels/kernel_util.h"
+#include "tflite/tensorflow/lite/micro/kernels/kernel_util.h"
+#include "tflite/tensorflow/lite/micro/kernels/pooling.h"
+#include "tflite/tensorflow/lite/micro/kernels/xtensa/xtensa.h"
+#include "tflite/tensorflow/lite/micro/kernels/xtensa/xtensa_pooling.h"
 
 #define MAX_POOLING 0
 #define AVG_POOLING 1

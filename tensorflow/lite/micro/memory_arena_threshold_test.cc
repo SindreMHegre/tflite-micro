@@ -15,15 +15,15 @@ limitations under the License.
 
 #include <stdint.h>
 
-#include "tensorflow/lite/micro/kernels/svdf.h"
-#include "tensorflow/lite/micro/memory_helpers.h"
-#include "tensorflow/lite/micro/memory_planner/greedy_memory_planner.h"
-#include "tensorflow/lite/micro/micro_mutable_op_resolver.h"
-#include "tensorflow/lite/micro/models/keyword_scrambled_model_data.h"
-#include "tensorflow/lite/micro/recording_micro_allocator.h"
-#include "tensorflow/lite/micro/recording_micro_interpreter.h"
-#include "tensorflow/lite/micro/testing/micro_test.h"
-#include "tensorflow/lite/micro/testing/test_conv_model.h"
+#include "tflite/tensorflow/lite/micro/kernels/svdf.h"
+#include "tflite/tensorflow/lite/micro/memory_helpers.h"
+#include "tflite/tensorflow/lite/micro/memory_planner/greedy_memory_planner.h"
+#include "tflite/tensorflow/lite/micro/micro_mutable_op_resolver.h"
+#include "tflite/tensorflow/lite/micro/models/keyword_scrambled_model_data.h"
+#include "tflite/tensorflow/lite/micro/recording_micro_allocator.h"
+#include "tflite/tensorflow/lite/micro/recording_micro_interpreter.h"
+#include "tflite/tensorflow/lite/micro/testing/micro_test.h"
+#include "tflite/tensorflow/lite/micro/testing/test_conv_model.h"
 
 /**
  * Tests to ensure arena memory allocation does not regress by more than 3%.

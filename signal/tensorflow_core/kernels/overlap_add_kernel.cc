@@ -15,8 +15,8 @@ limitations under the License.
 
 #include <cstdint>
 
-#include "signal/src/overlap_add.h"
-#include "tensorflow/core/framework/op_kernel.h"
+#include "tflite/signal/src/overlap_add.h"
+#include "tflite/tensorflow/core/framework/op_kernel.h"
 
 namespace tensorflow {
 namespace signal {

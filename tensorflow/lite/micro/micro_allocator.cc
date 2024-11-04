@@ -13,28 +13,28 @@ See the License for the specific language governing permissions and
 limitations under the License.
 ==============================================================================*/
 
-#include "tensorflow/lite/micro/micro_allocator.h"
+#include "tflite/tensorflow/lite/micro/micro_allocator.h"
 
 #include <cstddef>
 #include <cstdint>
 
-#include "flatbuffers/flatbuffers.h"  // from @flatbuffers
-#include "tensorflow/lite/c/common.h"
-#include "tensorflow/lite/kernels/internal/compatibility.h"
-#include "tensorflow/lite/micro/arena_allocator/non_persistent_arena_buffer_allocator.h"
-#include "tensorflow/lite/micro/arena_allocator/persistent_arena_buffer_allocator.h"
-#include "tensorflow/lite/micro/arena_allocator/single_arena_buffer_allocator.h"
-#include "tensorflow/lite/micro/compatibility.h"
-#include "tensorflow/lite/micro/flatbuffer_utils.h"
-#include "tensorflow/lite/micro/memory_helpers.h"
-#include "tensorflow/lite/micro/memory_planner/greedy_memory_planner.h"
-#include "tensorflow/lite/micro/memory_planner/linear_memory_planner.h"
-#include "tensorflow/lite/micro/memory_planner/micro_memory_planner.h"
-#include "tensorflow/lite/micro/micro_allocation_info.h"
-#include "tensorflow/lite/micro/micro_arena_constants.h"
-#include "tensorflow/lite/micro/micro_log.h"
-#include "tensorflow/lite/micro/tflite_bridge/flatbuffer_conversions_bridge.h"
-#include "tensorflow/lite/schema/schema_generated.h"
+#include "flatbuffers/include/flatbuffers/flatbuffers.h"  // from @flatbuffers
+#include "tflite/tensorflow/lite/c/common.h"
+#include "tflite/tensorflow/lite/kernels/internal/compatibility.h"
+#include "tflite/tensorflow/lite/micro/arena_allocator/non_persistent_arena_buffer_allocator.h"
+#include "tflite/tensorflow/lite/micro/arena_allocator/persistent_arena_buffer_allocator.h"
+#include "tflite/tensorflow/lite/micro/arena_allocator/single_arena_buffer_allocator.h"
+#include "tflite/tensorflow/lite/micro/compatibility.h"
+#include "tflite/tensorflow/lite/micro/flatbuffer_utils.h"
+#include "tflite/tensorflow/lite/micro/memory_helpers.h"
+#include "tflite/tensorflow/lite/micro/memory_planner/greedy_memory_planner.h"
+#include "tflite/tensorflow/lite/micro/memory_planner/linear_memory_planner.h"
+#include "tflite/tensorflow/lite/micro/memory_planner/micro_memory_planner.h"
+#include "tflite/tensorflow/lite/micro/micro_allocation_info.h"
+#include "tflite/tensorflow/lite/micro/micro_arena_constants.h"
+#include "tflite/tensorflow/lite/micro/micro_log.h"
+#include "tflite/tensorflow/lite/micro/tflite_bridge/flatbuffer_conversions_bridge.h"
+#include "tflite/tensorflow/lite/schema/schema_generated.h"
 
 namespace tflite {
 

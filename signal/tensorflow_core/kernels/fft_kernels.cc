@@ -13,10 +13,10 @@ See the License for the specific language governing permissions and
 limitations under the License.
 ==============================================================================*/
 
-#include "signal/src/fft_auto_scale.h"
-#include "signal/src/irfft.h"
-#include "signal/src/rfft.h"
-#include "tensorflow/core/framework/op_kernel.h"
+#include "tflite/signal/src/fft_auto_scale.h"
+#include "tflite/signal/src/irfft.h"
+#include "tflite/signal/src/rfft.h"
+#include "tflite/tensorflow/core/framework/op_kernel.h"
 
 namespace tensorflow {
 namespace signal {

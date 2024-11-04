@@ -19,8 +19,8 @@ limitations under the License.
 #include <cstddef>
 #include <limits>
 
-#include "fixedpoint/fixedpoint.h"
-#include "tensorflow/lite/kernels/internal/common.h"
+#include "gemmlowp/fixedpoint/fixedpoint.h"
+#include "tflite/tensorflow/lite/kernels/internal/common.h"
 
 namespace tflite {
 namespace reference_ops {

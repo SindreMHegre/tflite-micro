@@ -12,7 +12,7 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 ==============================================================================*/
-#include "flatbuffers/flexbuffers.h"
+#include "flatbuffers/include/flatbuffers/flexbuffers.h"
 
 const char* license =
     "/* Copyright 2021 The TensorFlow Authors. All Rights Reserved.\n"

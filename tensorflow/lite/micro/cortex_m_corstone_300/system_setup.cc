@@ -26,9 +26,9 @@ limitations under the License.
 // It is needed for the calls to NVIC_SetVector()/NVIC_EnableIR(),
 #include CMSIS_DEVICE_ARM_CORTEX_M_XX_HEADER_FILE
 
-#include "tensorflow/lite/micro/micro_log.h"
-#include "tensorflow/lite/micro/micro_time.h"
-#include "tensorflow/lite/micro/system_setup.h"
+#include "tflite/tensorflow/lite/micro/micro_log.h"
+#include "tflite/tensorflow/lite/micro/micro_time.h"
+#include "tflite/tensorflow/lite/micro/system_setup.h"
 
 #ifdef ETHOS_U
 

@@ -15,7 +15,7 @@ limitations under the License.
 // This file is generated. See:
 // tensorflow/lite/micro/kernels/test_data_generation/README.md
 
-#include "signal/micro/kernels/energy_flexbuffers_generated_data.h"
+#include "tflite/signal/micro/kernels/energy_flexbuffers_generated_data.h"
 
 const int g_gen_data_size_start_index_2_end_index_4 = 35;
 const unsigned char g_gen_data_start_index_2_end_index_4[] = {

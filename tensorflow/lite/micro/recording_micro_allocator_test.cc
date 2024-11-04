@@ -13,12 +13,12 @@ See the License for the specific language governing permissions and
 limitations under the License.
 ==============================================================================*/
 
-#include "tensorflow/lite/micro/recording_micro_allocator.h"
+#include "tflite/tensorflow/lite/micro/recording_micro_allocator.h"
 
-#include "tensorflow/lite/micro/micro_allocator.h"
-#include "tensorflow/lite/micro/test_helpers.h"
-#include "tensorflow/lite/micro/testing/micro_test.h"
-#include "tensorflow/lite/micro/testing/test_conv_model.h"
+#include "tflite/tensorflow/lite/micro/micro_allocator.h"
+#include "tflite/tensorflow/lite/micro/test_helpers.h"
+#include "tflite/tensorflow/lite/micro/testing/micro_test.h"
+#include "tflite/tensorflow/lite/micro/testing/test_conv_model.h"
 
 #define TF_LITE_TENSOR_STRUCT_SIZE sizeof(TfLiteTensor)
 #define TF_LITE_EVAL_TENSOR_STRUCT_SIZE sizeof(TfLiteEvalTensor)

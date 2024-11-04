@@ -13,9 +13,9 @@ See the License for the specific language governing permissions and
 limitations under the License.
 ==============================================================================*/
 
-#include "signal/src/pcan_argc_fixed.h"
-#include "tensorflow/core/framework/op_kernel.h"
-#include "tensorflow/core/framework/types.h"
+#include "tflite/signal/src/pcan_argc_fixed.h"
+#include "tflite/tensorflow/core/framework/op_kernel.h"
+#include "tflite/tensorflow/core/framework/types.h"
 
 namespace tensorflow {
 namespace signal {

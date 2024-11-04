@@ -15,7 +15,7 @@ limitations under the License.
 // This file is generated. See:
 // tensorflow/lite/micro/kernels/test_data_generation/README.md
 
-#include "signal/micro/kernels/filter_bank_flexbuffers_generated_data.h"
+#include "tflite/signal/micro/kernels/filter_bank_flexbuffers_generated_data.h"
 
 const int g_gen_data_size_filter_bank_32_channel = 23;
 const unsigned char g_gen_data_filter_bank_32_channel[] = {

@@ -13,16 +13,16 @@ See the License for the specific language governing permissions and
 limitations under the License.
 ==============================================================================*/
 
-#include "flatbuffers/flexbuffers.h"
-#include "tensorflow/lite/c/builtin_op_data.h"
-#include "tensorflow/lite/c/common.h"
-#include "tensorflow/lite/micro/kernels/kernel_runner.h"
-#include "tensorflow/lite/micro/micro_mutable_op_resolver.h"
-#include "tensorflow/lite/micro/test_helpers.h"
-#include "tensorflow/lite/micro/testing/micro_test.h"
+#include "flatbuffers/include/flatbuffers/flexbuffers.h"
+#include "tflite/tensorflow/lite/c/builtin_op_data.h"
+#include "tflite/tensorflow/lite/c/common.h"
+#include "tflite/tensorflow/lite/micro/kernels/kernel_runner.h"
+#include "tflite/tensorflow/lite/micro/micro_mutable_op_resolver.h"
+#include "tflite/tensorflow/lite/micro/test_helpers.h"
+#include "tflite/tensorflow/lite/micro/testing/micro_test.h"
 
 // See: tensorflow/lite/micro/kernels/detection_postprocess_test/README.md
-#include "tensorflow/lite/micro/kernels/detection_postprocess_flexbuffers_generated_data.h"
+#include "tflite/tensorflow/lite/micro/kernels/detection_postprocess_flexbuffers_generated_data.h"
 
 namespace tflite {
 namespace testing {

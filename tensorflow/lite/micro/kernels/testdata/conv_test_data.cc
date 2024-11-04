@@ -13,9 +13,9 @@ See the License for the specific language governing permissions and
 limitations under the License.
 ==============================================================================*/
 
-#include "tensorflow/lite/micro/kernels/testdata/conv_test_data.h"
+#include "tflite/tensorflow/lite/micro/kernels/testdata/conv_test_data.h"
 
-#include "tensorflow/lite/c/common.h"
+#include "tflite/tensorflow/lite/c/common.h"
 
 namespace tflite {
 

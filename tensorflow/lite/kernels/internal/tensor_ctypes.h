@@ -17,9 +17,9 @@ limitations under the License.
 
 #include <vector>
 
-#include "tensorflow/lite/core/c/common.h"
-#include "tensorflow/lite/core/macros.h"
-#include "tensorflow/lite/kernels/internal/types.h"
+#include "tflite/tensorflow/lite/core/c/common.h"
+#include "tflite/tensorflow/lite/core/macros.h"
+#include "tflite/tensorflow/lite/kernels/internal/types.h"
 
 namespace tflite {
 

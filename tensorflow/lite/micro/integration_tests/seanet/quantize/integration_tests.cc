@@ -16,19 +16,19 @@ limitations under the License.
 #include <string.h>
 
 #include "python/tflite_micro/python_ops_resolver.h"
-#include "tensorflow/lite/c/common.h"
-#include "tensorflow/lite/micro/integration_tests/seanet/quantize/quantize0_golden_int16_test_data.h"
-#include "tensorflow/lite/micro/integration_tests/seanet/quantize/quantize0_input0_int32_test_data.h"
-#include "tensorflow/lite/micro/integration_tests/seanet/quantize/quantize0_model_data.h"
-#include "tensorflow/lite/micro/integration_tests/seanet/quantize/quantize1_golden_int32_test_data.h"
-#include "tensorflow/lite/micro/integration_tests/seanet/quantize/quantize1_input0_int16_test_data.h"
-#include "tensorflow/lite/micro/integration_tests/seanet/quantize/quantize1_model_data.h"
-#include "tensorflow/lite/micro/micro_log.h"
-#include "tensorflow/lite/micro/micro_profiler.h"
-#include "tensorflow/lite/micro/recording_micro_allocator.h"
-#include "tensorflow/lite/micro/recording_micro_interpreter.h"
-#include "tensorflow/lite/micro/system_setup.h"
-#include "tensorflow/lite/micro/testing/micro_test.h"
+#include "tflite/tensorflow/lite/c/common.h"
+#include "tflite/tensorflow/lite/micro/integration_tests/seanet/quantize/quantize0_golden_int16_test_data.h"
+#include "tflite/tensorflow/lite/micro/integration_tests/seanet/quantize/quantize0_input0_int32_test_data.h"
+#include "tflite/tensorflow/lite/micro/integration_tests/seanet/quantize/quantize0_model_data.h"
+#include "tflite/tensorflow/lite/micro/integration_tests/seanet/quantize/quantize1_golden_int32_test_data.h"
+#include "tflite/tensorflow/lite/micro/integration_tests/seanet/quantize/quantize1_input0_int16_test_data.h"
+#include "tflite/tensorflow/lite/micro/integration_tests/seanet/quantize/quantize1_model_data.h"
+#include "tflite/tensorflow/lite/micro/micro_log.h"
+#include "tflite/tensorflow/lite/micro/micro_profiler.h"
+#include "tflite/tensorflow/lite/micro/recording_micro_allocator.h"
+#include "tflite/tensorflow/lite/micro/recording_micro_interpreter.h"
+#include "tflite/tensorflow/lite/micro/system_setup.h"
+#include "tflite/tensorflow/lite/micro/testing/micro_test.h"
 
 constexpr size_t kTensorArenaSize = 1024 * 100;
 uint8_t tensor_arena[kTensorArenaSize];

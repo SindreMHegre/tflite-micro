@@ -12,10 +12,10 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 ==============================================================================*/
-#include "tensorflow/lite/experimental/microfrontend/lib/noise_reduction.h"
+#include "tflite/tensorflow/lite/experimental/microfrontend/lib/noise_reduction.h"
 
-#include "tensorflow/lite/experimental/microfrontend/lib/noise_reduction_util.h"
-#include "tensorflow/lite/micro/testing/micro_test.h"
+#include "tflite/tensorflow/lite/experimental/microfrontend/lib/noise_reduction_util.h"
+#include "tflite/tensorflow/lite/micro/testing/micro_test.h"
 
 namespace {
 

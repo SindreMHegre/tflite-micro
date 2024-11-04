@@ -13,7 +13,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 ==============================================================================*/
 
-#include "tensorflow/lite/kernels/internal/runtime_shape.h"
+#include "tflite/tensorflow/lite/kernels/internal/runtime_shape.h"
 
 namespace tflite {
 

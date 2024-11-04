@@ -18,8 +18,8 @@ limitations under the License.
 
 #include <memory>
 
-#include "tensorflow/lite/micro/micro_mutable_op_resolver.h"
-#include "tensorflow/lite/micro/micro_op_resolver.h"
+#include "tflite/tensorflow/lite/micro/micro_mutable_op_resolver.h"
+#include "tflite/tensorflow/lite/micro/micro_op_resolver.h"
 
 namespace tflite {
 

@@ -27,7 +27,7 @@ limitations under the License.
 
 #include <stdint.h>
 
-#include "tensorflow/lite/core/c/common.h"
+#include "tflite/tensorflow/lite/core/c/common.h"
 
 namespace tflite {
 

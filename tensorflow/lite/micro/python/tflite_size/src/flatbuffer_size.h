@@ -17,8 +17,8 @@ limitations under the License.
 
 #include <string>
 
-#include "flatbuffers/flatbuffers.h"
-#include "flatbuffers/util.h"
+#include "flatbuffers/include/flatbuffers/flatbuffers.h"
+#include "flatbuffers/include/flatbuffers/util.h"
 
 namespace tflite {
 

@@ -1,6 +1,6 @@
 #include <cstdint>
 
-#include "tensorflow/lite/experimental/microfrontend/lib/kiss_fft_common.h"
+#include "tflite/tensorflow/lite/experimental/microfrontend/lib/kiss_fft_common.h"
 
 #define FIXED_POINT 16
 namespace kissfft_fixed16 {

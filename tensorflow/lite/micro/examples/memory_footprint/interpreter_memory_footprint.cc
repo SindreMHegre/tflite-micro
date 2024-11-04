@@ -15,11 +15,11 @@ limitations under the License.
 #include <cstdint>
 #include <cstdlib>
 
-#include "tensorflow/lite/micro/benchmarks/micro_benchmark.h"
-#include "tensorflow/lite/micro/examples/memory_footprint/models/simple_add_model_model_data.h"
-#include "tensorflow/lite/micro/micro_mutable_op_resolver.h"
-#include "tensorflow/lite/micro/micro_profiler.h"
-#include "tensorflow/lite/micro/system_setup.h"
+#include "tflite/tensorflow/lite/micro/benchmarks/micro_benchmark.h"
+#include "tflite/tensorflow/lite/micro/examples/memory_footprint/models/simple_add_model_model_data.h"
+#include "tflite/tensorflow/lite/micro/micro_mutable_op_resolver.h"
+#include "tflite/tensorflow/lite/micro/micro_profiler.h"
+#include "tflite/tensorflow/lite/micro/system_setup.h"
 
 // Use MicroBenchmarkRunner to avoid boiler plate code and more easily compare
 // the size with other benchmarks such as keyword_benchmark.

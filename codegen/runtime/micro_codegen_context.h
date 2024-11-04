@@ -16,10 +16,10 @@ limitations under the License.
 #ifndef CODEGEN_RUNTIME_MICRO_CODEGEN_CONTEXT_H_
 #define CODEGEN_RUNTIME_MICRO_CODEGEN_CONTEXT_H_
 
-#include "tensorflow/lite/c/common.h"
-#include "tensorflow/lite/micro/micro_context.h"
-#include "tensorflow/lite/micro/micro_graph.h"
-#include "tensorflow/lite/micro/span.h"
+#include "tflite/tensorflow/lite/c/common.h"
+#include "tflite/tensorflow/lite/micro/micro_context.h"
+#include "tflite/tensorflow/lite/micro/micro_graph.h"
+#include "tflite/tensorflow/lite/micro/span.h"
 
 namespace tflite {
 

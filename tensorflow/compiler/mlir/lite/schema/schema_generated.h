@@ -17,6 +17,6 @@ limitations under the License.
 
 // This file should only be used by the make build to redirect schema_utils.cc
 // usage of the generated schema to the proper location.
-#include "tensorflow/lite/schema/schema_generated.h"  // IWYU pragma: keep
+#include "tflite/tensorflow/lite/schema/schema_generated.h"  // IWYU pragma: keep
 
 #endif  // TENSORFLOW_LITE_SCHEMA_SCHEMA_UTILS_H_

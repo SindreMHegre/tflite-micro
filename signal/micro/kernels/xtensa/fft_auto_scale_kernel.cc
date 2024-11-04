@@ -13,19 +13,19 @@ See the License for the specific language governing permissions and
 limitations under the License.
 ==============================================================================*/
 
-#include "signal/micro/kernels/fft_auto_scale_kernel.h"
+#include "tflite/signal/micro/kernels/fft_auto_scale_kernel.h"
 
 #include <math.h>
 #include <stddef.h>
 #include <stdint.h>
 
-#include "signal/src/fft_auto_scale.h"
-#include "signal/src/max_abs.h"
-#include "signal/src/msb.h"
-#include "tensorflow/lite/kernels/internal/tensor_ctypes.h"
-#include "tensorflow/lite/kernels/kernel_util.h"
-#include "tensorflow/lite/micro/kernels/kernel_util.h"
-#include "tensorflow/lite/micro/micro_context.h"
+#include "tflite/signal/src/fft_auto_scale.h"
+#include "tflite/signal/src/max_abs.h"
+#include "tflite/signal/src/msb.h"
+#include "tflite/tensorflow/lite/kernels/internal/tensor_ctypes.h"
+#include "tflite/tensorflow/lite/kernels/kernel_util.h"
+#include "tflite/tensorflow/lite/micro/kernels/kernel_util.h"
+#include "tflite/tensorflow/lite/micro/micro_context.h"
 
 #if XCHAL_HAVE_HIFI3
 #include <xtensa/tie/xt_hifi3.h>

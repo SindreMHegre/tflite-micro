@@ -13,9 +13,9 @@ See the License for the specific language governing permissions and
 limitations under the License.
 ==============================================================================*/
 
-#include "tensorflow/lite/micro/examples/person_detection/detection_responder.h"
+#include "tflite/tensorflow/lite/micro/examples/person_detection/detection_responder.h"
 
-#include "tensorflow/lite/micro/testing/micro_test.h"
+#include "tflite/tensorflow/lite/micro/testing/micro_test.h"
 
 TF_LITE_MICRO_TESTS_BEGIN
 

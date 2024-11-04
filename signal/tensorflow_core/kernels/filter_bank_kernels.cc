@@ -13,11 +13,11 @@ See the License for the specific language governing permissions and
 limitations under the License.
 ==============================================================================*/
 
-#include "signal/src/filter_bank.h"
-#include "signal/src/filter_bank_log.h"
-#include "signal/src/filter_bank_spectral_subtraction.h"
-#include "signal/src/filter_bank_square_root.h"
-#include "tensorflow/core/framework/op_kernel.h"
+#include "tflite/signal/src/filter_bank.h"
+#include "tflite/signal/src/filter_bank_log.h"
+#include "tflite/signal/src/filter_bank_spectral_subtraction.h"
+#include "tflite/signal/src/filter_bank_square_root.h"
+#include "tflite/tensorflow/core/framework/op_kernel.h"
 
 namespace tensorflow {
 namespace signal {

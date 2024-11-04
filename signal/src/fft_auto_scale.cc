@@ -13,13 +13,13 @@ See the License for the specific language governing permissions and
 limitations under the License.
 ==============================================================================*/
 
-#include "signal/src/fft_auto_scale.h"
+#include "tflite/signal/src/fft_auto_scale.h"
 
 #include <stddef.h>
 #include <stdint.h>
 
-#include "signal/src/max_abs.h"
-#include "signal/src/msb.h"
+#include "tflite/signal/src/max_abs.h"
+#include "tflite/signal/src/msb.h"
 
 // TODO(b/286250473): remove namespace once de-duped libraries
 namespace tflite {

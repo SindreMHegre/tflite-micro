@@ -16,12 +16,12 @@ limitations under the License.
 #ifndef TENSORFLOW_LITE_MICRO_MICRO_CONTEXT_H_
 #define TENSORFLOW_LITE_MICRO_MICRO_CONTEXT_H_
 
-#include "tensorflow/lite/c/common.h"
-#include "tensorflow/lite/micro/micro_graph.h"
+#include "tflite/tensorflow/lite/c/common.h"
+#include "tflite/tensorflow/lite/micro/micro_graph.h"
 
 #ifdef USE_TFLM_COMPRESSION
 
-#include "tensorflow/lite/micro/compression.h"
+#include "tflite/tensorflow/lite/micro/compression.h"
 
 #endif  // USE_TFLM_COMPRESSION
 
