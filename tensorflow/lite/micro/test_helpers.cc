@@ -18,8 +18,8 @@ limitations under the License.
 #include <cstdarg>
 #include <cstddef>
 #include <cstdint>
-#include <initializer_list>
-#include <new>
+#include <gcc_embedded/arm-none-eabi/include/c++/13.2.1/initializer_list>
+#include <gcc_embedded/arm-none-eabi/include/c++/13.2.1/new>
 
 #include "flatbuffers/flatbuffers.h"  // from @flatbuffers
 #include "tensorflow/lite/c/common.h"

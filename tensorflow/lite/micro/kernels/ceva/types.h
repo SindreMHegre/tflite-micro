@@ -202,10 +202,10 @@ inline bool NextIndex(const int num_dims, const int* dims, int* current) {
 }
 
 #if 0
-#include <algorithm>
+#include <gcc_embedded/arm-none-eabi/include/c++/13.2.1/algorithm>
 #include <cstdint>
 #include <cstring>
-#include <initializer_list>
+#include <gcc_embedded/arm-none-eabi/include/c++/13.2.1/initializer_list>
 
 #include "tensorflow/lite/kernels/internal/compatibility.h"
 

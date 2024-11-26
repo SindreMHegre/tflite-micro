@@ -13,7 +13,7 @@ See the License for the specific language governing permissions and
 limitations under the License.
 ==============================================================================*/
 #include <cstdint>
-#include <initializer_list>
+#include <gcc_embedded/arm-none-eabi/include/c++/13.2.1/initializer_list>
 
 #include "tensorflow/lite/c/builtin_op_data.h"
 #include "tensorflow/lite/c/common.h"

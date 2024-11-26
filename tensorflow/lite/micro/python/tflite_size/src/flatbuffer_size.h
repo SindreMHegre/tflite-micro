@@ -15,7 +15,7 @@ limitations under the License.
 #ifndef TENSORFLOW_LITE_MICRO_PYTHON_TFLITE_SIZE_SRC_FLATBUFFERS_SIZE_H_
 #define TENSORFLOW_LITE_MICRO_PYTHON_TFLITE_SIZE_SRC_FLATBUFFERS_SIZE_H_
 
-#include <string>
+#include <gcc_embedded/arm-none-eabi/include/c++/13.2.1/string>
 
 #include "flatbuffers/flatbuffers.h"
 #include "flatbuffers/util.h"

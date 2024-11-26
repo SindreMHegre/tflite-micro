@@ -16,8 +16,8 @@ limitations under the License.
 #ifndef TENSORFLOW_LITE_KERNELS_INTERNAL_STRIDED_SLICE_LOGIC_H_
 #define TENSORFLOW_LITE_KERNELS_INTERNAL_STRIDED_SLICE_LOGIC_H_
 
-#include <limits>
-#include <vector>
+#include <gcc_embedded/arm-none-eabi/include/c++/13.2.1/limits>
+#include <gcc_embedded/arm-none-eabi/include/c++/13.2.1/vector>
 
 #include "tensorflow/lite/kernels/internal/compatibility.h"
 #include "tensorflow/lite/kernels/internal/types.h"

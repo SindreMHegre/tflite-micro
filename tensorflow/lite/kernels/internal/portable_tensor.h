@@ -16,7 +16,7 @@ limitations under the License.
 #define TENSORFLOW_LITE_KERNELS_INTERNAL_PORTABLE_TENSOR_H_
 
 #include <cstddef>
-#include <vector>
+#include <gcc_embedded/arm-none-eabi/include/c++/13.2.1/vector>
 
 #include "tensorflow/lite/core/c/common.h"
 #include "tensorflow/lite/kernels/internal/tensor_ctypes.h"

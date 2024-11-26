@@ -16,7 +16,7 @@ limitations under the License.
 #ifndef TENSORFLOW_LITE_KERNELS_INTERNAL_REFERENCE_PAD_H_
 #define TENSORFLOW_LITE_KERNELS_INTERNAL_REFERENCE_PAD_H_
 
-#include <vector>
+#include <gcc_embedded/arm-none-eabi/include/c++/13.2.1/vector>
 
 #include "tensorflow/lite/kernels/internal/types.h"
 

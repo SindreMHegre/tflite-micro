@@ -15,9 +15,9 @@ limitations under the License.
 
 #include "tensorflow/lite/kernels/internal/quantization_util.h"
 
-#include <algorithm>
-#include <cmath>
-#include <limits>
+#include <gcc_embedded/arm-none-eabi/include/c++/13.2.1/algorithm>
+#include <gcc_embedded/arm-none-eabi/include/c++/13.2.1/cmath>
+#include <gcc_embedded/arm-none-eabi/include/c++/13.2.1/limits>
 
 #include "tensorflow/lite/kernels/internal/compatibility.h"
 #include "tensorflow/lite/kernels/internal/cppmath.h"

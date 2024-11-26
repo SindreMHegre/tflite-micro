@@ -16,10 +16,10 @@ limitations under the License.
 #define TENSORFLOW_LITE_ARRAY_H_
 
 #include <cstring>
-#include <initializer_list>
-#include <memory>
-#include <type_traits>
-#include <vector>
+#include <gcc_embedded/arm-none-eabi/include/c++/13.2.1/initializer_list>
+#include <gcc_embedded/arm-none-eabi/include/c++/13.2.1/memory>
+#include <gcc_embedded/arm-none-eabi/include/c++/13.2.1/type_traits>
+#include <gcc_embedded/arm-none-eabi/include/c++/13.2.1/vector>
 
 #include "tensorflow/lite/core/c/common.h"
 

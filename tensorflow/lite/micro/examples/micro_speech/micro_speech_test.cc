@@ -13,9 +13,9 @@ See the License for the specific language governing permissions and
 limitations under the License.
 ==============================================================================*/
 
-#include <algorithm>
+#include <gcc_embedded/arm-none-eabi/include/c++/13.2.1/algorithm>
 #include <cstdint>
-#include <iterator>
+#include <gcc_embedded/arm-none-eabi/include/c++/13.2.1/iterator>
 
 #include "tensorflow/lite/core/c/common.h"
 #include "tensorflow/lite/micro/examples/micro_speech/micro_model_settings.h"

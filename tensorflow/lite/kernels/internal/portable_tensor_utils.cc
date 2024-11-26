@@ -17,8 +17,8 @@ limitations under the License.
 
 #include "tensorflow/lite/kernels/internal/portable_tensor_utils.h"
 
-#include <algorithm>
-#include <cmath>
+#include <gcc_embedded/arm-none-eabi/include/c++/13.2.1/algorithm>
+#include <gcc_embedded/arm-none-eabi/include/c++/13.2.1/cmath>
 #include <cstdint>
 
 #include "tensorflow/lite/core/c/builtin_op_data.h"

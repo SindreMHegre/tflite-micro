@@ -17,7 +17,7 @@ limitations under the License.
 #define TENSORFLOW_LITE_MICRO_TEST_HELPER_CUSTOM_OPS_H_
 
 #include <cstdint>
-#include <limits>
+#include <gcc_embedded/arm-none-eabi/include/c++/13.2.1/limits>
 
 #include "flatbuffers/flatbuffers.h"  // from @flatbuffers
 #include "tensorflow/lite/kernels/internal/compatibility.h"

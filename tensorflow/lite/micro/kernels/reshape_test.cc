@@ -15,7 +15,7 @@ limitations under the License.
 
 #include <stdint.h>
 
-#include <initializer_list>
+#include <gcc_embedded/arm-none-eabi/include/c++/13.2.1/initializer_list>
 
 #include "tensorflow/lite/c/common.h"
 #include "tensorflow/lite/kernels/internal/tensor_ctypes.h"

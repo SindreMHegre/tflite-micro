@@ -15,7 +15,7 @@ limitations under the License.
 
 #include "tensorflow/lite/micro/micro_allocation_info.h"
 
-#include <algorithm>
+#include <gcc_embedded/arm-none-eabi/include/c++/13.2.1/algorithm>
 
 #include "tensorflow/lite/c/c_api_types.h"
 #include "tensorflow/lite/kernels/internal/compatibility.h"

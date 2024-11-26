@@ -22,8 +22,8 @@ limitations under the License.
 #ifndef TENSORFLOW_LITE_MICRO_KERNELS_MICRO_TENSOR_UTILS_H_
 #define TENSORFLOW_LITE_MICRO_KERNELS_MICRO_TENSOR_UTILS_H_
 
-#include <algorithm>
-#include <cmath>
+#include <gcc_embedded/arm-none-eabi/include/c++/13.2.1/algorithm>
+#include <gcc_embedded/arm-none-eabi/include/c++/13.2.1/cmath>
 #include <cstdint>
 
 #include "tensorflow/lite/c/builtin_op_data.h"

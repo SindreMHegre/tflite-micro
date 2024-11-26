@@ -15,8 +15,8 @@ limitations under the License.
 #ifndef TENSORFLOW_LITE_KERNELS_INTERNAL_REFERENCE_LSTM_CELL_H_
 #define TENSORFLOW_LITE_KERNELS_INTERNAL_REFERENCE_LSTM_CELL_H_
 
-#include <algorithm>
-#include <cmath>
+#include <gcc_embedded/arm-none-eabi/include/c++/13.2.1/algorithm>
+#include <gcc_embedded/arm-none-eabi/include/c++/13.2.1/cmath>
 #include <cstdint>
 
 #include "tensorflow/lite/kernels/internal/common.h"

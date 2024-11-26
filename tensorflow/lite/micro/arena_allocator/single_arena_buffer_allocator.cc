@@ -17,7 +17,7 @@ limitations under the License.
 
 #include <cstddef>
 #include <cstdint>
-#include <new>
+#include <gcc_embedded/arm-none-eabi/include/c++/13.2.1/new>
 
 #include "tensorflow/lite/c/c_api_types.h"
 #include "tensorflow/lite/c/common.h"

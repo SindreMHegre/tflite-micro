@@ -15,7 +15,7 @@ limitations under the License.
 
 #include "tensorflow/lite/kernels/internal/tensor_ctypes.h"
 
-#include <vector>
+#include <gcc_embedded/arm-none-eabi/include/c++/13.2.1/vector>
 
 namespace tflite {
 

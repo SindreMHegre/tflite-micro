@@ -17,8 +17,8 @@ limitations under the License.
 // (defined in the keras LSTM layer, e.g., no peephole etc.) is supported here.
 // Currently used by the 8 bits activation case only, except for fallbacks.
 
-#include <algorithm>
-#include <limits>
+#include <gcc_embedded/arm-none-eabi/include/c++/13.2.1/algorithm>
+#include <gcc_embedded/arm-none-eabi/include/c++/13.2.1/limits>
 
 #include "Include/arm_nnfunctions.h"
 #include "tensorflow/lite/kernels/internal/quantization_util.h"

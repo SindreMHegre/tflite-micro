@@ -15,7 +15,7 @@ limitations under the License.
 #ifndef TENSORFLOW_LITE_KERNELS_INTERNAL_CPPMATH_H_
 #define TENSORFLOW_LITE_KERNELS_INTERNAL_CPPMATH_H_
 
-#include <cmath>
+#include <gcc_embedded/arm-none-eabi/include/c++/13.2.1/cmath>
 
 namespace tflite {
 

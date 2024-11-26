@@ -15,9 +15,9 @@ limitations under the License.
 
 #include "tensorflow/lite/kernels/internal/reference/batch_matmul.h"
 
-#include <algorithm>
+#include <gcc_embedded/arm-none-eabi/include/c++/13.2.1/algorithm>
 #include <cstdint>
-#include <limits>
+#include <gcc_embedded/arm-none-eabi/include/c++/13.2.1/limits>
 
 #include "tensorflow/lite/core/c/common.h"
 #include "tensorflow/lite/kernels/internal/quantization_util.h"

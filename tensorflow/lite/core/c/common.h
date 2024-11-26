@@ -1473,7 +1473,7 @@ TfLiteRunStep TfLiteTensorGetShapeKnownStep(const TfLiteTensor* t);
 #ifdef __cplusplus
 }  // extern "C"
 
-#include <utility>
+#include <gcc_embedded/arm-none-eabi/include/c++/13.2.1/utility>
 
 // --- TFLITE VARIANT TENSORS ----
 // Programming languges usually define "variant" as a type that can hold an

@@ -15,7 +15,7 @@ limitations under the License.
 
 #include "mli_slicers.h"  // NOLINT
 
-#include <algorithm>
+#include <gcc_embedded/arm-none-eabi/include/c++/13.2.1/algorithm>
 
 namespace tflite {
 namespace ops {

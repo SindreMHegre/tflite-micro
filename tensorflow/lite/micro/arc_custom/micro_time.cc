@@ -21,7 +21,7 @@ limitations under the License.
 
 #include <arc/arc_timer.h>
 
-#include <limits>
+#include <gcc_embedded/arm-none-eabi/include/c++/13.2.1/limits>
 
 namespace tflite {
 

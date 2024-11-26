@@ -15,7 +15,7 @@
 #ifndef TENSORFLOW_LITE_MICRO_STATIC_VECTOR_H_
 #define TENSORFLOW_LITE_MICRO_STATIC_VECTOR_H_
 
-#include <array>
+#include <gcc_embedded/arm-none-eabi/include/c++/13.2.1/array>
 #include <cassert>
 #include <cstddef>
 

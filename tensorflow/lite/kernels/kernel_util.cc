@@ -17,13 +17,13 @@ limitations under the License.
 #include <stdint.h>
 #include <stdlib.h>
 
-#include <algorithm>
-#include <complex>
-#include <limits>
-#include <memory>
+#include <gcc_embedded/arm-none-eabi/include/c++/13.2.1/algorithm>
+#include <gcc_embedded/arm-none-eabi/include/c++/13.2.1/complex>
+#include <gcc_embedded/arm-none-eabi/include/c++/13.2.1/limits>
+#include <gcc_embedded/arm-none-eabi/include/c++/13.2.1/memory>
 
 #ifndef TF_LITE_STATIC_MEMORY
-#include <string>
+#include <gcc_embedded/arm-none-eabi/include/c++/13.2.1/string>
 
 #include "tensorflow/lite/array.h"
 #endif  // TF_LITE_STATIC_MEMORY

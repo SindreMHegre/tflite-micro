@@ -17,7 +17,7 @@ limitations under the License.
 
 #include <Python.h>
 
-#include <string>
+#include <gcc_embedded/arm-none-eabi/include/c++/13.2.1/string>
 
 namespace tflite {
 

@@ -21,10 +21,10 @@ limitations under the License.
 #include <cstdint>
 #include <cstdlib>
 #include <fstream>
-#include <ios>
-#include <memory>
+#include <gcc_embedded/arm-none-eabi/include/c++/13.2.1/ios>
+#include <gcc_embedded/arm-none-eabi/include/c++/13.2.1/memory>
 #include <random>
-#include <utility>
+#include <gcc_embedded/arm-none-eabi/include/c++/13.2.1/utility>
 
 #include "flatbuffers/flatbuffer_builder.h"
 #include "flatbuffers/util.h"

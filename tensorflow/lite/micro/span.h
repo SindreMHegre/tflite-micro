@@ -16,7 +16,7 @@ limitations under the License.
 #ifndef TENSORFLOW_LITE_MICRO_SPAN_H_
 #define TENSORFLOW_LITE_MICRO_SPAN_H_
 
-#include <array>
+#include <gcc_embedded/arm-none-eabi/include/c++/13.2.1/array>
 #include <cstddef>
 
 namespace tflite {

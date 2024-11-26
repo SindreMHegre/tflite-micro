@@ -15,8 +15,8 @@ limitations under the License.
 
 #include "tensorflow/lite/kernels/internal/reference/add.h"
 
-#include <algorithm>
-#include <limits>
+#include <gcc_embedded/arm-none-eabi/include/c++/13.2.1/algorithm>
+#include <gcc_embedded/arm-none-eabi/include/c++/13.2.1/limits>
 
 #include "mli_api.h"  // NOLINT
 #include "tensorflow/lite/c/builtin_op_data.h"

@@ -19,7 +19,7 @@ limitations under the License.
 
 #ifndef TENSORFLOW_LITE_MICRO_KERNELS_LSTM_EVAL_GENERAL_H_
 #define TENSORFLOW_LITE_MICRO_KERNELS_LSTM_EVAL_GENERAL_H_
-#include <algorithm>
+#include <gcc_embedded/arm-none-eabi/include/c++/13.2.1/algorithm>
 #include <cstdint>
 
 #include "tensorflow/lite/c/builtin_op_data.h"

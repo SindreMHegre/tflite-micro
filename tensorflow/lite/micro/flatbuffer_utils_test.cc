@@ -15,7 +15,7 @@ limitations under the License.
 
 #include "tensorflow/lite/micro/flatbuffer_utils.h"
 
-#include <string>
+#include <gcc_embedded/arm-none-eabi/include/c++/13.2.1/string>
 
 #include "flatbuffers/flexbuffers.h"
 #include "tensorflow/lite/micro/test_helpers.h"

@@ -13,10 +13,10 @@ See the License for the specific language governing permissions and
 limitations under the License.
 ==============================================================================*/
 
-#include <algorithm>
-#include <iterator>
-#include <numeric>
-#include <type_traits>
+#include <gcc_embedded/arm-none-eabi/include/c++/13.2.1/algorithm>
+#include <gcc_embedded/arm-none-eabi/include/c++/13.2.1/iterator>
+#include <gcc_embedded/arm-none-eabi/include/c++/13.2.1/numeric>
+#include <gcc_embedded/arm-none-eabi/include/c++/13.2.1/type_traits>
 
 #include "tensorflow/lite/c/builtin_op_data.h"
 #include "tensorflow/lite/c/common.h"

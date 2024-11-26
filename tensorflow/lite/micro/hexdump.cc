@@ -14,7 +14,7 @@
 
 #include "tensorflow/lite/micro/hexdump.h"
 
-#include <algorithm>
+#include <gcc_embedded/arm-none-eabi/include/c++/13.2.1/algorithm>
 #include <cctype>
 
 #include "tensorflow/lite/micro/debug_log.h"

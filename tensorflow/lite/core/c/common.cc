@@ -20,8 +20,8 @@ limitations under the License.
 #endif  // TF_LITE_STATIC_MEMORY
 
 #include <cstring>
-#include <type_traits>
-#include <utility>
+#include <gcc_embedded/arm-none-eabi/include/c++/13.2.1/type_traits>
+#include <gcc_embedded/arm-none-eabi/include/c++/13.2.1/utility>
 
 #include "tensorflow/lite/core/c/c_api_types.h"
 #ifdef TF_LITE_TENSORFLOW_PROFILER

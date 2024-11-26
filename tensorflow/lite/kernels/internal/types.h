@@ -15,10 +15,10 @@ limitations under the License.
 #ifndef TENSORFLOW_LITE_KERNELS_INTERNAL_TYPES_H_
 #define TENSORFLOW_LITE_KERNELS_INTERNAL_TYPES_H_
 
-#include <algorithm>
+#include <gcc_embedded/arm-none-eabi/include/c++/13.2.1/algorithm>
 #include <cstdint>
 #include <cstring>
-#include <initializer_list>
+#include <gcc_embedded/arm-none-eabi/include/c++/13.2.1/initializer_list>
 
 #include "tensorflow/lite/kernels/internal/compatibility.h"
 #include "tensorflow/lite/kernels/internal/runtime_shape.h"

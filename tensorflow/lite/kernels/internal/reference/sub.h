@@ -17,9 +17,9 @@ limitations under the License.
 
 #include <stdint.h>
 
-#include <algorithm>
+#include <gcc_embedded/arm-none-eabi/include/c++/13.2.1/algorithm>
 #include <cstddef>
-#include <limits>
+#include <gcc_embedded/arm-none-eabi/include/c++/13.2.1/limits>
 
 #include "ruy/profiler/instrumentation.h"  // from @ruy
 #include "tensorflow/lite/kernels/internal/common.h"

@@ -742,7 +742,7 @@ AR := $(TARGET_TOOLCHAIN_ROOT)${TARGET_TOOLCHAIN_PREFIX}${AR_TOOL}
 # which is compiled if there's no command-line arguments.
 all: $(MICROLITE_LIB_PATH)
 
-# Include output directory since example cc files depend on generated headers.
+#include output directory since example cc files depend on generated headers.
 INCLUDES += -I$(GENERATED_SRCS_DIR)
 INCLUDES += -I$(GENERATED_SRCS_DIR)$(TENSORFLOW_ROOT)
 

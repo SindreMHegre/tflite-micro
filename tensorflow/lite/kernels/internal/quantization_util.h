@@ -15,9 +15,9 @@ limitations under the License.
 #ifndef TENSORFLOW_LITE_KERNELS_INTERNAL_QUANTIZATION_UTIL_H_
 #define TENSORFLOW_LITE_KERNELS_INTERNAL_QUANTIZATION_UTIL_H_
 
-#include <cmath>
+#include <gcc_embedded/arm-none-eabi/include/c++/13.2.1/cmath>
 #include <cstdint>
-#include <limits>
+#include <gcc_embedded/arm-none-eabi/include/c++/13.2.1/limits>
 
 #include "tensorflow/lite/kernels/internal/compatibility.h"
 #include "tensorflow/lite/kernels/internal/types.h"

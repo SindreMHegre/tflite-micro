@@ -18,7 +18,7 @@ limitations under the License.
 #include <inttypes.h>
 #include <pmu_ethosu.h>
 
-#include <algorithm>
+#include <gcc_embedded/arm-none-eabi/include/c++/13.2.1/algorithm>
 #endif
 
 // This is set in micro/tools/make/targets/cortex_m_corstone_300_makefile.inc.

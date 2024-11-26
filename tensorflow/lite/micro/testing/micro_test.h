@@ -51,8 +51,8 @@ limitations under the License.
 
 #ifndef TENSORFLOW_LITE_MICRO_TESTING_MICRO_TEST_H_
 #define TENSORFLOW_LITE_MICRO_TESTING_MICRO_TEST_H_
-#include <limits>
-#include <type_traits>
+#include <gcc_embedded/arm-none-eabi/include/c++/13.2.1/limits>
+#include <gcc_embedded/arm-none-eabi/include/c++/13.2.1/type_traits>
 
 #include "tensorflow/lite/c/common.h"
 #include "tensorflow/lite/micro/micro_log.h"

@@ -14,7 +14,7 @@ limitations under the License.
 ==============================================================================*/
 #include "tensorflow/lite/kernels/internal/reference/strided_slice.h"
 
-#include <cmath>
+#include <gcc_embedded/arm-none-eabi/include/c++/13.2.1/cmath>
 #include <cstring>
 
 #include "tensorflow/lite/c/builtin_op_data.h"

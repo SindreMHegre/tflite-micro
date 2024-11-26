@@ -15,7 +15,7 @@ limitations under the License.
 
 #include "tensorflow/lite/micro/examples/person_detection/image_provider.h"
 
-#include <limits>
+#include <gcc_embedded/arm-none-eabi/include/c++/13.2.1/limits>
 
 #include "tensorflow/lite/c/common.h"
 #include "tensorflow/lite/micro/examples/person_detection/model_settings.h"

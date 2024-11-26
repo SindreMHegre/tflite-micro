@@ -17,7 +17,7 @@ limitations under the License.
 
 #include <cstdarg>
 #include <cstdint>
-#include <new>
+#include <gcc_embedded/arm-none-eabi/include/c++/13.2.1/new>
 
 #include "tensorflow/lite/micro/micro_log.h"
 

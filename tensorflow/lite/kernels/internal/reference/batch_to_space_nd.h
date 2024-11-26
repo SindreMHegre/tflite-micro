@@ -15,7 +15,7 @@ limitations under the License.
 #ifndef TENSORFLOW_LITE_KERNELS_INTERNAL_REFERENCE_BATCH_TO_SPACE_ND_H_
 #define TENSORFLOW_LITE_KERNELS_INTERNAL_REFERENCE_BATCH_TO_SPACE_ND_H_
 
-#include <cmath>
+#include <gcc_embedded/arm-none-eabi/include/c++/13.2.1/cmath>
 
 #include "ruy/profiler/instrumentation.h"  // from @ruy
 #include "tensorflow/lite/kernels/internal/types.h"

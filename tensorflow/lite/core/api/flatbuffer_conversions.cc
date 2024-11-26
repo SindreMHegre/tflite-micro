@@ -15,10 +15,10 @@ limitations under the License.
 
 #include "tensorflow/lite/core/api/flatbuffer_conversions.h"
 
-#include <algorithm>
+#include <gcc_embedded/arm-none-eabi/include/c++/13.2.1/algorithm>
 #include <cstddef>
 #include <cstdint>
-#include <memory>
+#include <gcc_embedded/arm-none-eabi/include/c++/13.2.1/memory>
 
 #include "flatbuffers/vector.h"  // from @flatbuffers
 #include "tensorflow/compiler/mlir/lite/core/api/error_reporter.h"

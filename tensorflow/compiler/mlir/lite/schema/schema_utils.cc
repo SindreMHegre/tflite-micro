@@ -14,7 +14,7 @@ limitations under the License.
 ==============================================================================*/
 #include "tensorflow/compiler/mlir/lite/schema/schema_utils.h"
 
-#include <algorithm>
+#include <gcc_embedded/arm-none-eabi/include/c++/13.2.1/algorithm>
 
 #include "tensorflow/compiler/mlir/lite/kernels/internal/compatibility_macros.h"
 

@@ -19,8 +19,8 @@ limitations under the License.
 #if defined(HIFIMINI)
 #include <xtensa/tie/xt_hifi2.h>
 
-#include <algorithm>
-#include <cmath>
+#include <gcc_embedded/arm-none-eabi/include/c++/13.2.1/algorithm>
+#include <gcc_embedded/arm-none-eabi/include/c++/13.2.1/cmath>
 #include <cstdint>
 
 #include "tensorflow/lite/kernels/internal/compatibility.h"

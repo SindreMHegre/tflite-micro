@@ -17,9 +17,9 @@ limitations under the License.
 
 #include <stdint.h>
 
-#include <limits>
+#include <gcc_embedded/arm-none-eabi/include/c++/13.2.1/limits>
 #ifndef TF_LITE_STATIC_MEMORY
-#include <string>
+#include <gcc_embedded/arm-none-eabi/include/c++/13.2.1/string>
 #endif  // TF_LITE_STATIC_MEMORY
 
 #include "tensorflow/lite/core/c/builtin_op_data.h"

@@ -17,7 +17,7 @@ limitations under the License.
 
 #include <limits.h>
 
-#include <vector>
+#include <gcc_embedded/arm-none-eabi/include/c++/13.2.1/vector>
 
 #include "tensorflow/lite/kernels/internal/common.h"
 #include "tensorflow/lite/kernels/internal/types.h"

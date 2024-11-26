@@ -20,8 +20,8 @@ limitations under the License.
 // runtime API and interpreter.
 
 #include <cstddef>
-#include <new>
-#include <type_traits>
+#include <gcc_embedded/arm-none-eabi/include/c++/13.2.1/new>
+#include <gcc_embedded/arm-none-eabi/include/c++/13.2.1/type_traits>
 
 #include "tensorflow/compiler/mlir/lite/core/api/error_reporter.h"
 #include "tensorflow/lite/core/api/error_reporter.h"

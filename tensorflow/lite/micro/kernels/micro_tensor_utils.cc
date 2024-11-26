@@ -14,12 +14,12 @@ limitations under the License.
 ==============================================================================*/
 #include "tensorflow/lite/micro/kernels/micro_tensor_utils.h"
 
-#include <algorithm>
-#include <cmath>
+#include <gcc_embedded/arm-none-eabi/include/c++/13.2.1/algorithm>
+#include <gcc_embedded/arm-none-eabi/include/c++/13.2.1/cmath>
 #include <cstdint>
 #include <cstring>
-#include <limits>
-#include <utility>
+#include <gcc_embedded/arm-none-eabi/include/c++/13.2.1/limits>
+#include <gcc_embedded/arm-none-eabi/include/c++/13.2.1/utility>
 
 #include "fixedpoint/fixedpoint.h"  // from @gemmlowp
 #include "tensorflow/lite/kernels/internal/common.h"

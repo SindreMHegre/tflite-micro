@@ -13,9 +13,9 @@ See the License for the specific language governing permissions and
 limitations under the License.
 ==============================================================================*/
 
-#include <algorithm>
-#include <numeric>
-#include <tuple>
+#include <gcc_embedded/arm-none-eabi/include/c++/13.2.1/algorithm>
+#include <gcc_embedded/arm-none-eabi/include/c++/13.2.1/numeric>
+#include <gcc_embedded/arm-none-eabi/include/c++/13.2.1/tuple>
 
 #include "flatbuffers/flexbuffers.h"
 #include "tensorflow/lite/c/builtin_op_data.h"

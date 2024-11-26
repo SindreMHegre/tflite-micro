@@ -15,7 +15,7 @@ limitations under the License.
 
 #ifndef TENSORFLOW_LITE_MICRO_KERNELS_TESTDATA_LSTM_TEST_DATA_H_
 #define TENSORFLOW_LITE_MICRO_KERNELS_TESTDATA_LSTM_TEST_DATA_H_
-#include <string>
+#include <gcc_embedded/arm-none-eabi/include/c++/13.2.1/string>
 
 #include "tensorflow/lite/c/common.h"
 #include "tensorflow/lite/kernels/internal/portable_tensor_utils.h"

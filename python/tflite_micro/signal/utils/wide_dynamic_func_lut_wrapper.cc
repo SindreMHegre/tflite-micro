@@ -18,7 +18,7 @@ limitations under the License.
 
 #include <cstddef>
 #include <cstdint>
-#include <limits>
+#include <gcc_embedded/arm-none-eabi/include/c++/13.2.1/limits>
 
 namespace py = pybind11;
 

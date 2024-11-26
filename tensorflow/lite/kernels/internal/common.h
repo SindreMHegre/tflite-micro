@@ -15,7 +15,7 @@ limitations under the License.
 #ifndef TENSORFLOW_LITE_KERNELS_INTERNAL_COMMON_H_
 #define TENSORFLOW_LITE_KERNELS_INTERNAL_COMMON_H_
 
-#include <algorithm>
+#include <gcc_embedded/arm-none-eabi/include/c++/13.2.1/algorithm>
 #include <cstddef>
 #include <cstdint>
 
@@ -26,8 +26,8 @@ limitations under the License.
 #endif
 #endif
 
-#include <cmath>
-#include <functional>
+#include <gcc_embedded/arm-none-eabi/include/c++/13.2.1/cmath>
+#include <gcc_embedded/arm-none-eabi/include/c++/13.2.1/functional>
 
 #include "fixedpoint/fixedpoint.h"
 #include "tensorflow/lite/core/macros.h"

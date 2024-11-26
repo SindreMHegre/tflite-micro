@@ -15,7 +15,7 @@ limitations under the License.
 
 #include "tensorflow/lite/micro/arena_allocator/recording_single_arena_buffer_allocator.h"
 
-#include <new>
+#include <gcc_embedded/arm-none-eabi/include/c++/13.2.1/new>
 
 #include "tensorflow/lite/kernels/internal/compatibility.h"
 

@@ -18,9 +18,9 @@ limitations under the License.
 #include <sys/types.h>
 
 #include <cstring>
-#include <memory>
+#include <gcc_embedded/arm-none-eabi/include/c++/13.2.1/memory>
 #include <random>
-#include <type_traits>
+#include <gcc_embedded/arm-none-eabi/include/c++/13.2.1/type_traits>
 
 #include "tensorflow/lite/c/c_api_types.h"
 #include "tensorflow/lite/c/common.h"

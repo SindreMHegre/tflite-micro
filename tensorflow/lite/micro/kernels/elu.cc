@@ -15,8 +15,8 @@ limitations under the License.
 
 #include "tensorflow/lite/kernels/internal/reference/elu.h"
 
-#include <algorithm>
-#include <limits>
+#include <gcc_embedded/arm-none-eabi/include/c++/13.2.1/algorithm>
+#include <gcc_embedded/arm-none-eabi/include/c++/13.2.1/limits>
 
 #include "tensorflow/lite/c/common.h"
 #include "tensorflow/lite/kernels/internal/cppmath.h"

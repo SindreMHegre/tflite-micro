@@ -15,7 +15,7 @@ limitations under the License.
 
 #include "tensorflow/lite/micro/kernels/svdf.h"
 
-#include <cmath>
+#include <gcc_embedded/arm-none-eabi/include/c++/13.2.1/cmath>
 
 #include "tensorflow/lite/c/builtin_op_data.h"
 #include "tensorflow/lite/c/common.h"

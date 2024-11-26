@@ -16,8 +16,8 @@ limitations under the License.
 #ifndef TENSORFLOW_LITE_MICRO_KERNELS_LSTM_EVAL_TEST_H_
 #define TENSORFLOW_LITE_MICRO_KERNELS_LSTM_EVAL_TEST_H_
 
-#include <algorithm>
-#include <limits>
+#include <gcc_embedded/arm-none-eabi/include/c++/13.2.1/algorithm>
+#include <gcc_embedded/arm-none-eabi/include/c++/13.2.1/limits>
 
 #include "tensorflow/lite/micro/kernels/lstm_eval.h"
 #include "tensorflow/lite/micro/kernels/testdata/lstm_test_data.h"

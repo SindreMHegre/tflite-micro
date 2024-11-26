@@ -17,9 +17,9 @@ limitations under the License.
 
 #include <cstddef>
 #include <cstring>
-#include <iterator>
-#include <type_traits>
-#include <utility>
+#include <gcc_embedded/arm-none-eabi/include/c++/13.2.1/iterator>
+#include <gcc_embedded/arm-none-eabi/include/c++/13.2.1/type_traits>
+#include <gcc_embedded/arm-none-eabi/include/c++/13.2.1/utility>
 
 #include "tensorflow/lite/kernels/internal/compatibility.h"
 #include "tensorflow/lite/micro/micro_log.h"

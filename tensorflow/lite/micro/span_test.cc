@@ -14,7 +14,7 @@
 
 #include "tensorflow/lite/micro/span.h"
 
-#include <array>
+#include <gcc_embedded/arm-none-eabi/include/c++/13.2.1/array>
 
 #include "tensorflow/lite/micro/testing/micro_test.h"
 

@@ -16,7 +16,7 @@ limitations under the License.
 #ifndef TFLM_BENCHMARK_OP_RESOLVER_H_
 #define TFLM_BENCHMARK_OP_RESOLVER_H_
 
-#include <memory>
+#include <gcc_embedded/arm-none-eabi/include/c++/13.2.1/memory>
 
 #include "tensorflow/lite/micro/micro_mutable_op_resolver.h"
 #include "tensorflow/lite/micro/micro_op_resolver.h"

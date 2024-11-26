@@ -17,7 +17,7 @@ limitations under the License.
 
 #include <limits.h>
 
-#include <algorithm>
+#include <gcc_embedded/arm-none-eabi/include/c++/13.2.1/algorithm>
 
 #include "tensorflow/lite/micro/kernels/arc_mli/scratch_buffers.h"
 

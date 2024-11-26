@@ -18,7 +18,7 @@ limitations under the License.
 
 #include "flatbuffer_size.h"
 
-#include <string>
+#include <gcc_embedded/arm-none-eabi/include/c++/13.2.1/string>
 
 #include "flatbuffers/flatbuffers.h"
 #include "flatbuffers/util.h"
